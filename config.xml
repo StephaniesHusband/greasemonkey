@@ -1,0 +1,67 @@
+<UserScriptConfig>
+	<Script basedir="Google_Calendar_Bars_Toggler" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="This script toggles display of the top and side bars of Google Calendar with click or I U O G V key." enabled="true" filename="107309.user.js" installTime="1349203722702" lastUpdateCheck="1349203719584" modified="1349203719584" name="Google Calendar Bars Toggler" namespace="http://userscripts.org/scripts/show/107309" runAt="document-end" updateAvailable="false" uuid="a9f9077d-c8ff-4873-9ec4-27e453784156" version="1.4.2" installurl="http://userscripts.org/scripts/source/107309.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/107309.meta.js">
+		<Grant>GM_addStyle</Grant>
+		<Grant>GM_deleteValue</Grant>
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>https://*.google.*/calendar/*</Include>
+		<Include>http://*.google.*/calendar/*</Include>
+	</Script>
+	<Script basedir="google_tweaks" checkRemoteUpdates="true" dependhash="e8f489af5907f6d037c5bde160f79aebfe4ce4ad" description="Tweaks to the layout and features of Google+" enabled="false" filename="google_tweaks.user.js" installTime="1329260574919" lastUpdateCheck="1313073057537" modified="1324319624596" name="Google+ Tweaks" namespace="userscripts.org" runAt="document-end" updateAvailable="false" uuid="47b66fa1-698a-48d8-8230-aaeff262b8c7" version="0.024" installurl="http://userscripts.org/scripts/source/106166.user.js" updateurl="http://userscripts.org/scripts/source/106166.meta.js">
+		<Grant>GM_addStyle</Grant>
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>http://plus.google.com/*</Include>
+		<Include>https://plus.google.com/*</Include>
+		<Require filename="jquerymin.js"/>
+		<Require filename="106368user.js"/>
+		<Require filename="106223user.js"/>
+	</Script>
+	<Script basedir="gmail_compact" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="This script will make Google Mail's new look more compact (make sure display density is set to compact)" enabled="false" filename="gmail_compact.user.js" installTime="1329260574920" lastUpdateCheck="1320955172192" modified="1324319619686" name="Gmail Compact" namespace="gmailcompact" runAt="document-end" updateAvailable="false" uuid="18125aba-e9d5-4aa5-99b5-a3dd9aa38495" version="2011.11.08" installurl="http://userscripts.org/scripts/source/117234.user.js" updateurl="http://userscripts.org/scripts/source/117234.meta.js">
+		<Grant>GM_addStyle</Grant>
+		<Include>http*://mail.google.*</Include>
+	</Script>
+	<Script basedir="Seed_Meeting_ID" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Seed_Meeting_ID.user.js" installTime="1330706806129" lastUpdateCheck="1330717794570" modified="1330717794570" name="Seed Meeting ID" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="547e975e-1b6a-43ae-9074-c8364ace69e8" version="">
+		<Grant>none</Grant>
+		<Include>https://meeting.web.fedex.com/*</Include>
+	</Script>
+	<Script basedir="Translations_Links" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Translations_Links.user.js" installTime="1331828653150" lastUpdateCheck="1331829792097" modified="1357662972431" name="Translations Links" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="a9965a2b-7661-41c1-9f31-c58c9f022935" version="">
+		<Grant>none</Grant>
+		<Include>https://vistaidiom.vistatec.ie/*</Include>
+	</Script>
+	<Script basedir="Facebook_Link_Director" checkRemoteUpdates="true" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="130260.user.js" installTime="1334153801441" lastUpdateCheck="1334153797956" modified="1334153797956" name="Facebook Link Director" namespace="https://www.facebook.com/*" runAt="document-end" updateAvailable="false" uuid="01d4153d-4626-444e-9965-3add9ec7184f" version="1.0" installurl="http://userscripts.org/scripts/source/130260.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/130260.meta.js">
+		<Grant>none</Grant>
+		<Include>https://www.facebook.com/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="HideWaveRows" checkRemoteUpdates="true" dependhash="96a4fe909f3e22fcb305f33916013931c96b8cec" description="Hide all wave related rows from forecast on WindFinder.com" enabled="true" filename="HideWaveRows.user.js" installTime="1345057872686" lastUpdateCheck="1345063766211" modified="1357662743118" name="HideWaveRows" namespace="" runAt="document-end" updateAvailable="false" uuid="0dad6719-5af1-43b6-b45b-bb444be52626" version="">
+		<Grant>none</Grant>
+		<Include>http://www.windfinder.com/weatherforecast/memphis_shelby_farms</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Google_Reader_Filter_Per_FeedFolder" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="false" filename="85009.user.js" installTime="1334871533643" lastUpdateCheck="1334871529677" modified="1334871529677" name="Google Reader Filter Per Feed/Folder" namespace="http://pyroprints.com" runAt="document-end" updateAvailable="false" uuid="09668364-b6f0-400a-96ca-d48da23caa67" version="" installurl="http://userscripts.org/scripts/source/85009.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/85009.meta.js">
+		<Grant>GM_deleteValue</Grant>
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>http*://*.google.*/reader*</Include>
+	</Script>
+	<Script basedir="Add_My_Task_Report_to_VersionOne" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Add_My_Task_Report_to_VersionOne.user.js" installTime="1353003756732" lastUpdateCheck="1353020078547" modified="1357662501655" name="Personal VersionOne Report" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="333b6876-20f7-4665-81dc-5d2063183050" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_My_Task_Report_to_VersionOne/Add_My_Task_Report_to_VersionOne.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_My_Task_Report_to_VersionOne/Add_My_Task_Report_to_VersionOne.user.js">
+		<Grant>none</Grant>
+		<Include>https://www13.v1host.com/FedEx/Default.aspx*</Include>
+	</Script>
+	<Script basedir="EffortReportCurrentWeek" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="EffortReportCurrentWeek.user.js" installTime="1353340871929" lastUpdateCheck="1353341453946" modified="1357675915764" name="Set Personal VersonOne Report Date Range" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="1d1dcf00-4b8a-4701-8945-8b32348e14d3" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/EffortReportCurrentWeek/EffortReportCurrentWeek.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/EffortReportCurrentWeek/EffortReportCurrentWeek.user.js">
+		<Grant>none</Grant>
+		<Include>https://analytics13.v1host.com/FedEx/AdHoc/rdPage.aspx?rdReport=ahReport47&amp;FirstTime=True&amp;rdNoShowWait=True*</Include>
+	</Script>
+	<Script basedir="TeamForge_Links" checkRemoteUpdates="true" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="Helpful TeamForge Links" enabled="true" filename="TeamForge_Links.user.js" installTime="1357678017814" lastUpdateCheck="1357686416170" modified="1358193907827" name="TeamForge Links" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="8b168cf3-783d-4729-9ce0-27982d6cf4b6" version="v2.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js">
+		<Grant>none</Grant>
+		<Include>http://itg.prod.fedex.com/sf/*</Include>
+		<Include>https://itg.prod.fedex.com/sf/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Add_WSAW_Naming_Standards" checkRemoteUpdates="true" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="" enabled="true" filename="Add_WSAW_Naming_Standards.user.js" installTime="1358277682297" lastUpdateCheck="" modified="1358288400137" name="Add WSAW Naming Standards" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="" uuid="a889d960-ab6a-4401-84a9-8b254e30011e" version="1.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_WSAW_Naming_Standards/Add_WSAW_Naming_Standards.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_WSAW_Naming_Standards/Add_WSAW_Naming_Standards.user.js">
+		<Grant>none</Grant>
+		<Include>http://itg.prod.fedex.com/sf/docman/do/createDocument/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+</UserScriptConfig>
