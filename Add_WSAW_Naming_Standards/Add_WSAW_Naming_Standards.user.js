@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Add WSAW Naming Standards
 // @namespace   fedex.scotterwin
-// @include     http://itg.prod.fedex.com/sf/docman/do/createDocument/*
+// @include     /^https?://itg\.prod\.fedex\.com/sf/docman/do/(create|edit)Document/.*$/
 // @version     1.1
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
 // ==/UserScript==
@@ -19,5 +19,7 @@ var STANDARDS = '<!--WSAW Standards-->'
 + '</td>';
 
 $(document).ready(function() {
-   $('div#main form#createDocument table.Container tbody tr td.PaddedTable table.PaddedTable tbody tr:nth-child(3)').append(STANDARDS);
+   $('div.contentArea div#main form#editDocument table.Container tbody tr:nth-child(3) td.PaddedTable table.PaddedTable tbody tr:nth-child(3)').append(STANDARDS);
+   $('div.contentArea div#main form#createDocument table.Container tbody tr:nth-child(2) td.PaddedTable table.PaddedTable tbody tr:nth-child(3)').append(STANDARDS);
 });
+//html body div.contentArea div#main form#editDocument table.Container tbody tr td.PaddedTable table.PaddedTable tbody tr

@@ -59,9 +59,9 @@
 		<Include>https://itg.prod.fedex.com/sf/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Add_WSAW_Naming_Standards" checkRemoteUpdates="true" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="" enabled="true" filename="Add_WSAW_Naming_Standards.user.js" installTime="1358277682297" lastUpdateCheck="" modified="1358288400137" name="Add WSAW Naming Standards" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="" uuid="a889d960-ab6a-4401-84a9-8b254e30011e" version="1.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_WSAW_Naming_Standards/Add_WSAW_Naming_Standards.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_WSAW_Naming_Standards/Add_WSAW_Naming_Standards.user.js">
+	<Script basedir="Add_WSAW_Naming_Standards" checkRemoteUpdates="true" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="" enabled="true" filename="Add_WSAW_Naming_Standards.user.js" installTime="1358277682297" lastUpdateCheck="1358288400137" modified="1358367920405" name="Add WSAW Naming Standards" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="a889d960-ab6a-4401-84a9-8b254e30011e" version="1.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_WSAW_Naming_Standards/Add_WSAW_Naming_Standards.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_WSAW_Naming_Standards/Add_WSAW_Naming_Standards.user.js">
 		<Grant>none</Grant>
-		<Include>http://itg.prod.fedex.com/sf/docman/do/createDocument/*</Include>
+		<Include>/^https?://itg\.prod\.fedex\.com/sf/docman/do/(create|edit)Document/.*$/</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
 </UserScriptConfig>
