@@ -19,20 +19,32 @@
 //
 // ==/UserScript==
 
+var CUR_VERSION = "1400";
+var DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root";
+var VER_BASE = ".wsaw1340"; // misnomered - this is reall 1400
+var JOB_AID = DOC_ROOT + ".templates";
+var DEV_DIR = DOC_ROOT + VER_BASE + ".development";
+var BRS_DIR = DOC_ROOT + VER_BASE + ".brs";
+
+var UTC_DOC = "http://itg.prod.fedex.com/sf/go/doc711686?nav=1"; // 1380
+var APP_CONT_INV = "http://itg.prod.fedex.com/sf/go/doc573380?nav=1";
+var REL_CAL = "http://itg.prod.fedex.com/sf/go/doc714562?nav=1";
+
+
 var NAV_MENU = '<!--New Links-->'
 + '<nav id="scottLinks">'
 + '  <span>Quick Links:</span>'
 + '  <ul>'
 + '    <li>'
-+ '      <a class="wsaw" href="http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root.wsaw1380_ol1302_feb_2012_dl">SenseAware (1380)</a>'
++ '      <a class="wsaw" href="http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root.wsaw1380_ol1302_feb_2012_dl">SenseAware ('+CUR_VERSION+')</a>'
 + '      <ul class="fallback">'
-+ '        <li><a class="wsaw" href="http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root.definition.pre_read_brss">PreRead BRSs</a></li>'
-+ '        <li><a class="wsaw" href="http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root.wsaw1380_ol1302_feb_2012_dl.backlog_stories">Current BRSs</a></li>'
-+ '        <li><a class="wsaw" href="http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root.wsaw1380_ol1302_feb_2012_dl.development">Code Review WPRs</a></li>'
-+ '        <li><a class="wsaw" href="http://itg.prod.fedex.com/sf/go/doc711686?nav=1">UTC Document</a></li>'
-+ '        <li><a class="wsaw" href="http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root.templates">Job Aids</a></li>'
-+ '        <li><a class="wsaw" href="http://itg.prod.fedex.com/sf/go/doc573380?nav=1">Application Content Inventory</a></li>'
-+ '        <li><a class="wsaw" href="http://itg.prod.fedex.com/sf/go/doc714562?nav=1">Release Calendar</a></li>'
++ '        <li><a class="wsaw" href="'+DOC_ROOT+'.definition.pre_read_brss">PreRead BRSs</a></li>'
++ '        <li><a class="wsaw" href="'+BRS_DIR+'">Current BRSs</a></li>'
++ '        <li><a class="wsaw" href="'+DEV_DIR+'">Code Review WPRs</a></li>'
++ '        <li><a class="wsaw" href="'+UTC_DOC+'">UTC Document</a></li>'
++ '        <li><a class="wsaw" href="'+JOB_AID+'">Job Aids</a></li>'
++ '        <li><a class="wsaw" href="'+APP_CONT_INV+'">Application Content Inventory</a></li>'
++ '        <li><a class="wsaw" href="'+REL_CAL+'">Release Calendar</a></li>'
 + '      </ul>'
 + '    </li>'
 + '    <li>'
