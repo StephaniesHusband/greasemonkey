@@ -53,7 +53,7 @@
 		<Grant>none</Grant>
 		<Include>https://analytics13.v1host.com/FedEx/AdHoc/rdPage.aspx?rdReport=ahReport47&amp;FirstTime=True&amp;rdNoShowWait=True*</Include>
 	</Script>
-	<Script basedir="TeamForge_Links" checkRemoteUpdates="true" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="Helpful TeamForge Links" enabled="true" filename="TeamForge_Links.user.js" installTime="1357678017814" lastUpdateCheck="1357686416170" modified="1360611874510" name="TeamForge Links" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="8b168cf3-783d-4729-9ce0-27982d6cf4b6" version="v2.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js">
+	<Script basedir="TeamForge_Links" checkRemoteUpdates="true" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="Helpful TeamForge Links" enabled="true" filename="TeamForge_Links.user.js" installTime="1357678017814" lastUpdateCheck="1357686416170" modified="1361552059408" name="TeamForge Links" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="8b168cf3-783d-4729-9ce0-27982d6cf4b6" version="v2.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js">
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/*</Include>
 		<Include>https://itg.prod.fedex.com/sf/*</Include>
@@ -62,6 +62,11 @@
 	<Script basedir="Add_WSAW_Naming_Standards" checkRemoteUpdates="true" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="" enabled="true" filename="Add_WSAW_Naming_Standards.user.js" installTime="1358277682297" lastUpdateCheck="1358288400137" modified="1358367920405" name="Add WSAW Naming Standards" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="a889d960-ab6a-4401-84a9-8b254e30011e" version="1.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_WSAW_Naming_Standards/Add_WSAW_Naming_Standards.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_WSAW_Naming_Standards/Add_WSAW_Naming_Standards.user.js">
 		<Grant>none</Grant>
 		<Include>/^https?://itg\.prod\.fedex\.com/sf/docman/do/(create|edit)Document/.*$/</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="EmpNumNames" checkRemoteUpdates="true" dependhash="acc535b968e5767dd8efeebe990f267a42400760" description="" enabled="true" filename="EmpNumNames.user.js" installTime="1361553541800" lastUpdateCheck="" modified="1361554602369" name="EmpNumNames" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="" uuid="857f1db2-99a1-40b3-b950-fa8617e32cde" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/EmpNumNames/EmpNumNames.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/EmpNumNames/EmpNumNames.user.js">
+		<Grant>none</Grant>
+		<Include>http://svn1.prod.fedex.com:7080/integration/viewvc/viewvc.cgi/trunk/saflex/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
 </UserScriptConfig>
