@@ -64,7 +64,7 @@
 		<Include>/^https?://itg\.prod\.fedex\.com/sf/docman/do/(create|edit)Document/.*$/</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="EmpNumNames" checkRemoteUpdates="true" dependhash="acc535b968e5767dd8efeebe990f267a42400760" description="" enabled="true" filename="EmpNumNames.user.js" installTime="1361553541800" lastUpdateCheck="" modified="1361554602369" name="EmpNumNames" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="" uuid="857f1db2-99a1-40b3-b950-fa8617e32cde" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/EmpNumNames/EmpNumNames.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/EmpNumNames/EmpNumNames.user.js">
+	<Script basedir="EmpNumNames" checkRemoteUpdates="true" dependhash="acc535b968e5767dd8efeebe990f267a42400760" description="" enabled="true" filename="EmpNumNames.user.js" installTime="1361553541800" lastUpdateCheck="" modified="1361556205543" name="EmpNumNames" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="" uuid="857f1db2-99a1-40b3-b950-fa8617e32cde" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/EmpNumNames/EmpNumNames.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/EmpNumNames/EmpNumNames.user.js">
 		<Grant>none</Grant>
 		<Include>http://svn1.prod.fedex.com:7080/integration/viewvc/viewvc.cgi/trunk/saflex/*</Include>
 		<Require filename="jquery.min.js"/>

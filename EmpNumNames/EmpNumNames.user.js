@@ -7,23 +7,15 @@
 // ==/UserScript==
 
 $(document).ready(function() {
-   $('em:contains("381805")').attr({
-      alt: 'Reneé Redmond',
-      title: 'Reneé Redmond'});
+   // Add a title tool tip to the employee numbers so that we'll know who they are.
+   $('em:contains("381805")').attr('title', 'Emp# 381805').text('Reneé Redmond');
+   $('em:contains("263952")').attr('title', 'Emp# 263952').text('Scott Erwin');
+   $('em:contains("763341")').attr('title', 'Emp# 763341').text('Michael Heier');
+   $('em:contains("854055")').attr('title', 'Emp# 854055').text('Satish');
+   $('em:contains("780963")').attr('title', 'Emp# 780963').text('Lindsey Sanders');
+   $('em:contains("446551")').attr('title', 'Emp# 446551').text('Dan Ost');
 
-   $('em:contains("263952")').attr({
-      alt: 'Scott Erwin',
-      title: 'Scott Erwin'});
-
-   $('em:contains("763341")').attr({
-      alt: 'Michael Heier',
-      title: 'Michael Heier'});
-
-   $('em:contains("854055")').attr({
-      alt: 'Satish',
-      title: 'Satish'});
-
-   $('em:contains("780963")').attr({
-      alt: 'Lindsey Sanders',
-      title: 'Lindsey Sanders'});
+   // Move the diff form to the top of the form so that you don't have to scroll
+   // all the way to the bottom.
+   $('div.contentArea').prepend($('form#diff_select'));
 });
