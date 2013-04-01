@@ -18,9 +18,9 @@ the diff form from bottom to top for ease of selection.
 
 Other Personal
 ==============
-Facebook_Link_Director
-Google_Calendar_Bars_Toggler
-Google_Reader_Filter_Per_FeedFolder
-HideWaveRows
-gmail_compact
-google_tweaks
+Facebook_Link_Director  
+Google_Calendar_Bars_Toggler  
+Google_Reader_Filter_Per_FeedFolder  
+HideWaveRows  
+gmail_compact  
+google_tweaks  
