@@ -15,6 +15,9 @@ Seed the Effort Report in VersionONE with current week.
 ####EmpNumNames
 Change employee numbers to actual employee name in the SVN commits page and move
 the diff form from bottom to top for ease of selection.
+####APEX_Toolbar
+Adds a handy floating toolbar of the actions that normally scroll off the page
+(e.g., Save, Print, etc)
 
 Other Personal
 ==============
