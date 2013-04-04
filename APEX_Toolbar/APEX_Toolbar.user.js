@@ -11,6 +11,7 @@ $(document).ready(function() {
    $("body").append($("<div id='floatingMenu'></div>").html($("td.contextualIcons a").clone()));
 
    $("#floatingMenu").prepend("<h1>Action Menu</h1>");
+   $("#floatingMenu").append("<h2>Save often!</h2>");
 
    // allow scroll until it's about to scroll off page and then "affix it".
 
