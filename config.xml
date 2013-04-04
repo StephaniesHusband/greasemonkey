@@ -7,20 +7,6 @@
 		<Include>https://*.google.*/calendar/*</Include>
 		<Include>http://*.google.*/calendar/*</Include>
 	</Script>
-	<Script basedir="google_tweaks" checkRemoteUpdates="true" dependhash="e8f489af5907f6d037c5bde160f79aebfe4ce4ad" description="Tweaks to the layout and features of Google+" enabled="false" filename="google_tweaks.user.js" installTime="1329260574919" lastUpdateCheck="1313073057537" modified="1324319624596" name="Google+ Tweaks" namespace="userscripts.org" runAt="document-end" updateAvailable="false" uuid="47b66fa1-698a-48d8-8230-aaeff262b8c7" version="0.024" installurl="http://userscripts.org/scripts/source/106166.user.js" updateurl="http://userscripts.org/scripts/source/106166.meta.js">
-		<Grant>GM_addStyle</Grant>
-		<Grant>GM_getValue</Grant>
-		<Grant>GM_setValue</Grant>
-		<Include>http://plus.google.com/*</Include>
-		<Include>https://plus.google.com/*</Include>
-		<Require filename="jquerymin.js"/>
-		<Require filename="106368user.js"/>
-		<Require filename="106223user.js"/>
-	</Script>
-	<Script basedir="gmail_compact" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="This script will make Google Mail's new look more compact (make sure display density is set to compact)" enabled="false" filename="gmail_compact.user.js" installTime="1329260574920" lastUpdateCheck="1320955172192" modified="1324319619686" name="Gmail Compact" namespace="gmailcompact" runAt="document-end" updateAvailable="false" uuid="18125aba-e9d5-4aa5-99b5-a3dd9aa38495" version="2011.11.08" installurl="http://userscripts.org/scripts/source/117234.user.js" updateurl="http://userscripts.org/scripts/source/117234.meta.js">
-		<Grant>GM_addStyle</Grant>
-		<Include>http*://mail.google.*</Include>
-	</Script>
 	<Script basedir="Seed_Meeting_ID" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Seed_Meeting_ID.user.js" installTime="1330706806129" lastUpdateCheck="1330717794570" modified="1330717794570" name="Seed Meeting ID" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="547e975e-1b6a-43ae-9074-c8364ace69e8" version="">
 		<Grant>none</Grant>
 		<Include>https://meeting.web.fedex.com/*</Include>
@@ -38,12 +24,6 @@
 		<Grant>none</Grant>
 		<Include>http://www.windfinder.com/weatherforecast/memphis_shelby_farms</Include>
 		<Require filename="jquery.min.js"/>
-	</Script>
-	<Script basedir="Google_Reader_Filter_Per_FeedFolder" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="false" filename="85009.user.js" installTime="1334871533643" lastUpdateCheck="1334871529677" modified="1334871529677" name="Google Reader Filter Per Feed/Folder" namespace="http://pyroprints.com" runAt="document-end" updateAvailable="false" uuid="09668364-b6f0-400a-96ca-d48da23caa67" version="" installurl="http://userscripts.org/scripts/source/85009.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/85009.meta.js">
-		<Grant>GM_deleteValue</Grant>
-		<Grant>GM_getValue</Grant>
-		<Grant>GM_setValue</Grant>
-		<Include>http*://*.google.*/reader*</Include>
 	</Script>
 	<Script basedir="Add_My_Task_Report_to_VersionOne" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Add_My_Task_Report_to_VersionOne.user.js" installTime="1353003756732" lastUpdateCheck="1353020078547" modified="1363966396558" name="Personal VersionOne Report" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="333b6876-20f7-4665-81dc-5d2063183050" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_My_Task_Report_to_VersionOne/Add_My_Task_Report_to_VersionOne.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_My_Task_Report_to_VersionOne/Add_My_Task_Report_to_VersionOne.user.js">
 		<Grant>none</Grant>
@@ -70,7 +50,13 @@
 		<Include>https://analytics13.v1host.com/FedEx/AdHoc/rdPage.aspx?rdReport=ahReport47*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="AutoCheckSenseAwareRepo" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="AutoCheckSenseAwareRepo.user.js" installTime="1364832390103" lastUpdateCheck="" modified="1364834491795" name="AutoCheckSenseAwareRepo" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="" uuid="287652ea-ebcd-4d5c-8db5-fce6f3b3c9db" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/AutoCheckSenseAwareRepo/AutoCheckSenseAwareRepo.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/AutoCheckSenseAwareRepo/AutoCheckSenseAwareRepo.user.js">
+	<Script basedir="APEX_Toolbar" checkRemoteUpdates="true" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="APEX_Toolbar.user.js" installTime="1365023926401" lastUpdateCheck="NaN" modified="1365098661200" name="APEX_Toolbar" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="aa3f924d-3d49-4005-9ba1-cb2de1daba8f" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/APEX_Toolbar/APEX_Toolbar.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/APEX_Toolbar/APEX_Toolbar.user.js">
+		<Grant>none</Grant>
+		<Include>https://performancemanager4.successfactors.com/acme*</Include>
+		<UserInclude>https://performancemanager4.successfactors.com/acme*</UserInclude>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="AutoCheckSenseAwareRepo" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="AutoCheckSenseAwareRepo.user.js" installTime="1364832390103" lastUpdateCheck="1364834491795" modified="1364834491795" name="AutoCheckSenseAwareRepo" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="287652ea-ebcd-4d5c-8db5-fce6f3b3c9db" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/AutoCheckSenseAwareRepo/AutoCheckSenseAwareRepo.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/AutoCheckSenseAwareRepo/AutoCheckSenseAwareRepo.user.js">
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/*/projects.sqa_senseaware/scm</Include>
 	</Script>
