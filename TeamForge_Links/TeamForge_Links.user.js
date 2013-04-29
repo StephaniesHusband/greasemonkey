@@ -19,14 +19,16 @@
 //
 // ==/UserScript==
 
-var CUR_VERSION = "1400";
+var CUR_VERSION = "1420";
 var DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root";
-var VER_BASE = ".wsaw1340"; // misnomered - this is reall 1400
+var VER_BASE = ".wsaw1420";
+var VER_ROOT = DOC_ROOT + VER_BASE;
 var JOB_AID = DOC_ROOT + ".templates";
 var DEV_DIR = DOC_ROOT + VER_BASE + ".development";
 var BRS_DIR = DOC_ROOT + VER_BASE + ".brs";
 
-var UTC_DOC = "http://itg.prod.fedex.com/sf/go/doc751170?nav=1";
+
+var UTC_DOC = "http://itg.prod.fedex.com/sf/go/doc773088?nav=1";
 var APP_CONT_INV = "http://itg.prod.fedex.com/sf/go/doc573380?nav=1";
 var REL_CAL = "http://itg.prod.fedex.com/sf/go/doc742172?nav=1";
 var SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware"
@@ -36,7 +38,7 @@ var NAV_MENU = '<!--New Links-->'
 + '  <span>Quick Links:</span>'
 + '  <ul>'
 + '    <li>'
-+ '      <a class="wsaw" href="http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root.wsaw1380_ol1302_feb_2012_dl">SenseAware ('+CUR_VERSION+')</a>'
++ '      <a class="wsaw" href="'+VER_ROOT+'">SenseAware ('+CUR_VERSION+')</a>'
 + '      <ul class="fallback">'
 + '        <li><a class="wsaw" href="'+DOC_ROOT+'.definition.pre_read_brss">PreRead BRSs</a></li>'
 + '        <li><a class="wsaw" href="'+BRS_DIR+'">Current BRSs</a></li>'
@@ -53,6 +55,8 @@ var NAV_MENU = '<!--New Links-->'
 + '      <ul class="fallback">'
 + '        <li><a href="http://itg.prod.fedex.com/sf/discussion/do/listTopics/projects.fedex_com_developmentcommunity/discussion.gui_development">GUI Dev Forum</a></li>'
 + '        <li><a href="http://itg.prod.fedex.com/sf/go/projects.fedex_com_developmentcommunity/docman.root.gui_strategy.design_patterns_and_practices">JavaScriptMVC Training</a></li>'
++ '        <li><a href="http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.fedex_com_developmentcommunity/docman.root">TeamForge Root</a></li>'
++ '        <li><a href="http://itg.prod.fedex.com/sf/wiki/do/viewPage/projects.eos_egis/wiki/EgisjsApi">eGIS Wiki</a></li>'
 + '      </ul>'
 + '    </li>'
 + '  </ul>'
