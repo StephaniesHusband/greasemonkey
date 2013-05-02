@@ -60,4 +60,9 @@
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/*/projects.sqa_senseaware/scm</Include>
 	</Script>
+	<Script basedir="FloatingTaskBoardHeader" checkRemoteUpdates="true" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="Floating Taskboard Header" enabled="true" filename="FloatingTaskBoardHeader.user.js" installTime="1367506785733" lastUpdateCheck="null" modified="1367512823003" name="FloatingTaskBoardHeader" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="null" uuid="c8675aef-3613-444c-adf6-8b778ecab008" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js">
+		<Grant>none</Grant>
+		<Include>https://www13.v1host.com/FedEx/Default.aspx?menu=TaskBoardPage</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
 </UserScriptConfig>
