@@ -43,7 +43,7 @@ $(document).ready(function() {
    var origTarget;
    var theClone;
 
-   $("<style> .floatingHeader { position: fixed; top: 0; visibility: hidden; } .floatingSubHeader { visibility: hidden; } </style>").appendTo("head");
+   $("<style> .floatingHeader { z-index: 1; position: fixed; top: 0; visibility: hidden; } .floatingSubHeader { visibility: hidden; } </style>").appendTo("head");
 
    $("table.taskboard").addClass("persist-area");
    $("table.taskboard tr.header").addClass("persist-header");
