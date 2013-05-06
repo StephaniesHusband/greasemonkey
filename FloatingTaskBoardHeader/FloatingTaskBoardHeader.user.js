@@ -4,7 +4,6 @@
 // @description Floating Taskboard Header
 // @include     https://www13.v1host.com/FedEx/Default.aspx?menu=TaskBoardPage
 // @version     1
-// @require     https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
 // ==/UserScript==
 
 function UpdateFloaters() {

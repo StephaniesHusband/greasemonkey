@@ -60,9 +60,8 @@
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/*/projects.sqa_senseaware/scm</Include>
 	</Script>
-	<Script basedir="FloatingTaskBoardHeader" checkRemoteUpdates="true" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="Floating Taskboard Header" enabled="true" filename="FloatingTaskBoardHeader.user.js" installTime="1367516631557" lastUpdateCheck="NaN" modified="1367533142686" name="FloatingTaskBoardHeader" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="08a5d219-3662-4221-92c0-4c7fda7da4aa" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js">
+	<Script basedir="FloatingTaskBoardHeader" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Floating Taskboard Header" enabled="true" filename="FloatingTaskBoardHeader.user.js" installTime="1367516631557" lastUpdateCheck="NaN" modified="1367861224378" name="FloatingTaskBoardHeader" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="08a5d219-3662-4221-92c0-4c7fda7da4aa" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js">
 		<Grant>none</Grant>
 		<Include>https://www13.v1host.com/FedEx/Default.aspx?menu=TaskBoardPage</Include>
-		<Require filename="jquery.min.js"/>
 	</Script>
 </UserScriptConfig>
