@@ -1,5 +1,9 @@
 FedEx Related
 =============
+####FloatingTaskBoardHeader (NEW!)
+Makes the VersionONE Taskboard column headers float as your scroll down AND
+floats the current story card (on the leftmost column) float as you scroll
+through the story.
 ####Seed_Meeting_ID
 Used with AutoHotkey macro to auto log into a MeetingPlace meeting.
 ####TeamForge_Links
