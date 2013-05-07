@@ -14,23 +14,32 @@ function UpdateFloaters() {
           floatingHeader = $(".floatingHeader", this);
 
       if ((scrollTop > offset.top) && (scrollTop < offset.top + el.height())) {
+         // show new floating header
          floatingHeader.css("visibility", "visible");
+         // since there is a slide out div on the left, compute the absolute
+         // position when we show the new floating header.
+         floatingHeader.css("left", (floatingHeader.next().offset().left-2) + "px")
       } else {
-         floatingHeader.css( "visibility", "hidden");
+         // hide new floating header--because we can see the original now
+         floatingHeader.css("visibility", "hidden");
       };
    });
 
    $(".persist-subarea").each(function() {
       var el = $(this),
           offset = el.offset(),
-          scrollTop = $(window).scrollTop()+$(".floatingHeader[visibility!=hidden]").height(),
+          scrollTop = $(window).scrollTop()+$(".floatingHeader:visible").height(),
           floater = $(".floatingSubHeader", this);
 
       if ((scrollTop > offset.top) && (scrollTop < offset.top + el.height()-floater.height())) {
+         // Show the floater
          floater.css("visibility", "visible");
+         // Hide the original target card
          floater.next().css("visibility", "hidden");
       } else {
+         // Hide the floater
          floater.css("visibility", "hidden");
+         // Show the original target card
          floater.prev().css("visibility", "visible");
       };
    });
@@ -42,7 +51,7 @@ $(document).ready(function() {
    var origTarget;
    var theClone;
 
-   $("<style> .floatingHeader { z-index: 1; position: fixed; top: 0; visibility: hidden; } .floatingSubHeader { visibility: hidden; } </style>").appendTo("head");
+   $("<style> .floatingHeader { z-index: 1; position: fixed; top: -2px; visibility: hidden; } .floatingSubHeader { visibility: hidden; }</style>").appendTo("head");
 
    $("table.taskboard").addClass("persist-area");
    $("table.taskboard tr.header").addClass("persist-header");
@@ -58,10 +67,9 @@ $(document).ready(function() {
 
       theClone
          .before(origTarget)
-         .css("width", origTarget.width())
+         .css("width", (origTarget.width()+3) + "px")
          .addClass("floatingHeader")
          .css("padding", 0)
-         .css("left", 18)
          .children().width(function(i,val) {
             return origTarget.children().eq(i).width();
          });
@@ -77,7 +85,7 @@ $(document).ready(function() {
          .before(origTarget)
          .css("width", origTarget.width())
          .css("position", "fixed")
-         .css("top", $(".floatingHeader[visibility!=hidden]").height() + "px")
+         .css("top", $(".floatingHeader:visible").height() + "px")
          .addClass("floatingSubHeader");
    });
 
