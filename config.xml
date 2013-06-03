@@ -64,4 +64,8 @@
 		<Grant>none</Grant>
 		<Include>https://www13.v1host.com/FedEx/*</Include>
 	</Script>
+	<Script basedir="Max_length_on_service_ticket" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="set max length" enabled="true" filename="Max_length_on_service_ticket.user.js" installTime="1370267793898" lastUpdateCheck="null" modified="1370268072483" name="Max length on service ticket" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="null" uuid="29b69229-8140-422a-9bdc-ac4737373fb1" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Max_length_on_service_ticket/Max_length_on_service_ticket.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Max_length_on_service_ticket/Max_length_on_service_ticket.user.js">
+		<Grant>none</Grant>
+		<Include>https://sso.secure.fedex.com/techweb/srvpro.jsp</Include>
+	</Script>
 </UserScriptConfig>
