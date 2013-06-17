@@ -30,15 +30,15 @@ var BRS_DIR = DOC_ROOT + VER_BASE + ".brs";
 
 var UTC_DOC = "http://itg.prod.fedex.com/sf/go/doc773088?nav=1";
 var APP_CONT_INV = "http://itg.prod.fedex.com/sf/go/doc573380?nav=1";
-var REL_CAL = "http://itg.prod.fedex.com/sf/go/doc742172?nav=1";
-var SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware"
+var REL_CAL = "http://itg.prod.fedex.com/sf/go/doc792861?nav=1";
+var SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware";
 
 var NAV_MENU = '<!--New Links-->'
 + '<nav id="scottLinks">'
 + '  <span>Quick Links:</span>'
 + '  <ul>'
 + '    <li>'
-+ '      <a class="wsaw" href="'+VER_ROOT+'">SenseAware ('+CUR_VERSION+')</a>'
++ '      <div id="icon-wrapper"><img src="https://sa.senseaware.com/static/sasec/favicon.ico"></div><a id="wsaw-title" class="wsaw" href="'+VER_ROOT+'">SenseAware ('+CUR_VERSION+')</a>'
 + '      <ul class="fallback">'
 + '        <li><a class="wsaw" href="'+DOC_ROOT+'.definition.pre_read_brss">PreRead BRSs</a></li>'
 + '        <li><a class="wsaw" href="'+BRS_DIR+'">Current BRSs</a></li>'
