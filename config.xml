@@ -68,9 +68,14 @@
 		<Grant>none</Grant>
 		<Include>https://sso.secure.fedex.com/techweb/srvpro.jsp</Include>
 	</Script>
-	<Script basedir="DupDiffControlsToTop" checkRemoteUpdates="true" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="DupDiffControlsToTop.user.js" installTime="1371837409621" lastUpdateCheck="NaN" modified="1371839219217" name="DupDiffControlsToTop" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="8480d0ea-ec4c-45b7-8d62-973699e28ac9" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/DupDiffControlsToTop/DupDiffControlsToTop.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/DupDiffControlsToTop/DupDiffControlsToTop.user.js">
+	<Script basedir="DupDiffControlsToTop" checkRemoteUpdates="true" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="DupDiffControlsToTop.user.js" installTime="1371837409621" lastUpdateCheck="NaN" modified="1371839388254" name="DupDiffControlsToTop" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="false" uuid="8480d0ea-ec4c-45b7-8d62-973699e28ac9" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/DupDiffControlsToTop/DupDiffControlsToTop.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/DupDiffControlsToTop/DupDiffControlsToTop.user.js">
 		<Grant>none</Grant>
 		<Include>http://sym8b.prod.fedex.com/integration/viewvc/viewvc.cgi*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Monitor_button_at_top" checkRemoteUpdates="true" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Monitor_button_at_top.user.js" installTime="1372098419960" lastUpdateCheck="null" modified="1372099212363" name="Monitor button at top" namespace="fedex.scotterwin" runAt="document-end" updateAvailable="null" uuid="e2cbe1b0-866a-40e3-b601-a435ae15211a" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Monitor_button_at_top/Monitor_button_at_top.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Monitor_button_at_top/Monitor_button_at_top.user.js">
+		<Grant>none</Grant>
+		<Include>http://itg.prod.fedex.com/sf/docman/do/listDocuments*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
 </UserScriptConfig>

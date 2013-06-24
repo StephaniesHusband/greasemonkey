@@ -28,7 +28,7 @@ var DEV_DIR = DOC_ROOT + VER_BASE + ".development";
 var BRS_DIR = DOC_ROOT + VER_BASE + ".brs";
 
 
-var UTC_DOC = "http://itg.prod.fedex.com/sf/go/doc773088?nav=1";
+var UTC_DOC = "http://itg.prod.fedex.com/sf/go/doc795500?nav=1";
 var APP_CONT_INV = "http://itg.prod.fedex.com/sf/go/doc573380?nav=1";
 var REL_CAL = "http://itg.prod.fedex.com/sf/go/doc792861?nav=1";
 var SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware";
