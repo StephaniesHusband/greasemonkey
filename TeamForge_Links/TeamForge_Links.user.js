@@ -21,7 +21,7 @@
 
 var CUR_VERSION = "1460";
 var DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root";
-var VER_BASE = ".wsaw1460_ol1310_oct_2013_dl";
+var VER_BASE = ".wsaw1460_ol_1310_oct_2013_dl";
 var VER_ROOT = DOC_ROOT + VER_BASE;
 var JOB_AID = DOC_ROOT + ".templates";
 var DEV_DIR = DOC_ROOT + VER_BASE + ".development";
