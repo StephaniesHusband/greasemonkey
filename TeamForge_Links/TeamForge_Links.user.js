@@ -19,16 +19,16 @@
 //
 // ==/UserScript==
 
-var CUR_VERSION = "1440";
+var CUR_VERSION = "1460";
 var DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root";
-var VER_BASE = ".wsaw1440_ol1308_aug_2013_dl";
+var VER_BASE = ".wsaw1460_ol1310_oct_2013_dl";
 var VER_ROOT = DOC_ROOT + VER_BASE;
 var JOB_AID = DOC_ROOT + ".templates";
 var DEV_DIR = DOC_ROOT + VER_BASE + ".development";
 var BRS_DIR = DOC_ROOT + VER_BASE + ".brs";
 
 
-var UTC_DOC = "http://itg.prod.fedex.com/sf/go/doc795500?nav=1";
+var UTC_DOC = "http://itg.prod.fedex.com/sf/go/doc821723?nav=1";
 var APP_CONT_INV = "http://itg.prod.fedex.com/sf/go/doc573380?nav=1";
 var REL_CAL = "http://itg.prod.fedex.com/sf/go/doc792861?nav=1";
 var SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware";
