@@ -7,16 +7,31 @@
 // ==/UserScript==
 
 $(document).ready(function() {
+
    $('td > a[href*="cmmt"]').each(function() {
-     $(this).after($("<div class='box'><iframe src='"+this.href+"#showCommitsOnly' width='1000px' height='300px'></iframe></div>"));
+      $(this).parent().parent()
+         .after($("<tr style='display:none;' id='row"+$(this).html()+"'><td>&nbsp;</td><td colspan='4'>commits here</td></tr>"));
+
+      $(this).click(function() {
+         var cmtNum = this.innerHTML;
+
+         if ($("#row"+cmtNum).is(":visible") || $("#row"+cmtNum).html().is(":empty"))
+            $("#row"+cmtNum).slideToggle();
+         else if (
+            getCommits(this.href, cmtNum);
+ 
+         return false; // prevent default
+      });
    });
 
-   // Ideas
-   // Put iframe in a floating div and place so that you can always see it
-   // (won't go off screen)
-   //
-   // make into a hierarchical structure with +/- to expand/contract
-   //
-   // forget all this and use wget to get a list of all the files you've changed
-   // and then feed that list into BC2
+   function getCommits(cmtUrl, cmtNum) {
+      $.get(cmtUrl, function(data) {
+         $("#row"+cmtNum+" td:nth-child(2)")
+            .html($(data)
+            .find("#ScmFiles")
+            .css('paddingBottom','8px'));
+
+         $("#row"+cmtNum).slideToggle();
+      });
+   }
 });
