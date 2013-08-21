@@ -78,17 +78,7 @@
 		<Include>http://itg.prod.fedex.com/sf/docman/do/listDocuments*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Simple_Form_Saver" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Provides a button at the top left, click it to save or to fill in HTML forms.  If the form is more than just a search input field, eg, google is ignored.  Also possible to selectively fill-in forms automatically only on selected pages." enabled="true" filename="66442.user.js" installTime="1372277334453" modified="1372279181673" name="Simple Form Saver" namespace="userscripts.org" runAt="document-end" uuid="dd70fbc7-d02f-46ae-bb3e-7ebf6bcf2b3a" version="1.3.6" installurl="http://userscripts.org/scripts/source/66442.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/66442.meta.js">
-		<Grant>GM_addStyle</Grant>
-		<Grant>GM_deleteValue</Grant>
-		<Grant>GM_getValue</Grant>
-		<Grant>GM_log</Grant>
-		<Grant>GM_registerMenuCommand</Grant>
-		<Grant>GM_setValue</Grant>
-		<Grant>unsafeWindow</Grant>
-		<Include>https://www13.v1host.com/FedEx/Default.aspx?Page=Widgets*</Include>
-	</Script>
-	<Script basedir="Preview_Commit_Window" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Preview_Commit_Window.user.js" installTime="1377031028111" modified="1377035328273" name="Preview Commit Window" namespace="fedex.scotterwin" runAt="document-end" uuid="cee2243c-3d56-4951-8a1e-fac5e08a4fd2" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js">
+	<Script basedir="Preview_Commit_Window" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Preview_Commit_Window.user.js" installTime="1377031028111" modified="1377102228743" name="Preview Commit Window" namespace="fedex.scotterwin" runAt="document-end" uuid="cee2243c-3d56-4951-8a1e-fac5e08a4fd2" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js">
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware</Include>
 		<Require filename="jquery.min.js"/>
