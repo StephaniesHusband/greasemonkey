@@ -10,14 +10,14 @@ $(document).ready(function() {
 
    $('td > a[href*="cmmt"]').each(function() {
       $(this).parent().parent()
-         .after($("<tr style='display:none;' id='row"+$(this).html()+"'><td>&nbsp;</td><td colspan='4'>commits here</td></tr>"));
+         .after($("<tr style='display:none;' id='row"+$(this).html()+"'><td>&nbsp;</td><td colspan='4'></td></tr>"));
 
       $(this).click(function() {
          var cmtNum = this.innerHTML;
 
-         if ($("#row"+cmtNum).is(":visible") || $("#row"+cmtNum).html().is(":empty"))
+         if ($("#row"+cmtNum).is(":visible") || $("#row"+cmtNum+ "td:nth-child(2)").is(":empty"))
             $("#row"+cmtNum).slideToggle();
-         else if (
+         else
             getCommits(this.href, cmtNum);
  
          return false; // prevent default
