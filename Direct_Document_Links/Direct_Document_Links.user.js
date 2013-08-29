@@ -14,6 +14,8 @@ $(document).ready(function() {
 
       $(this).attr("href", document.documentURI.replace("listDocuments","downloadDocument")+"/"+docNum);
 
+      $(this).after("<img class='directIcon' alt='This is a direct link' title='This is a direct link' src='http://ddcontent.comrz.com/AcuCustom/Sitename/Icon/Logo/2009AffinoMLMainNonStar12B.png'>");
+
    });
 
 });
