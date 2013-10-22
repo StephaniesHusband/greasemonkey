@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        AutoCheckSenseAwareRepo
+// @name        SVN - AutoCheckSenseAwareRepo
 // @namespace   fedex.scotterwin
 // @include     http://itg.prod.fedex.com/sf/*/projects.sqa_senseaware/scm
 // @version     1

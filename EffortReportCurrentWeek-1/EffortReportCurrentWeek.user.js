@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        EffortReportCurrentWeek
+// @name        VersionOne - EffortReportCurrentWeek
 // @namespace   fedex.scotterwin
 // @include     https://analytics13.v1host.com/FedEx/AdHoc/rdPage.aspx?rdReport=ahReport47*
 // @run-at      document-end

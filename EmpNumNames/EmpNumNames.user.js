@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        EmpNumNames
+// @name        SVN - EmpNumNames
 // @namespace   fedex.scotterwin
 // @include     http://svn1.prod.fedex.com:7080/integration/viewvc/viewvc.cgi/trunk/saflex/*
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js

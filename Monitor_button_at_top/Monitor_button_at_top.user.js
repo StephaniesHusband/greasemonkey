@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Monitor button at top
+// @name        Teamforge - Monitor button at top
 // @namespace   fedex.scotterwin
 // @include     http://itg.prod.fedex.com/sf/docman/do/listDocuments*
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js

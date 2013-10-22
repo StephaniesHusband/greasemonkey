@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        FloatingTaskBoardHeader
+// @name        VersionOne - Floating TaskBoard Header
 // @namespace   fedex.scotterwin
 // @description Floating Taskboard Header
 // @include     https://www13.v1host.com/FedEx/*

@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Add WSAW Naming Standards
+// @name        Teamforge - Add WSAW Naming Standards
 // @namespace   fedex.scotterwin
 // @include     /^https?://itg\.prod\.fedex\.com/sf/docman/do/(create|edit)Document/.*$/
 // @version     1.1

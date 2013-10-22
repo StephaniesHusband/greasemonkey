@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        APEX_Toolbar
+// @name        APEX - Toolbar
 // @namespace   fedex.scotterwin
 // @include     https://performancemanager4.successfactors.com/acme*
 // @version     1

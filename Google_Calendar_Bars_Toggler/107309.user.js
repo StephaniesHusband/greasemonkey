@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name            Google Calendar Bars Toggler
+// @name            Google Calendar - Side/Header Bars Toggler
 // @namespace       http://userscripts.org/scripts/show/107309
 // @description     This script toggles display of the top and side bars of Google Calendar with click or I U O G V key.
 // @version         1.4.2

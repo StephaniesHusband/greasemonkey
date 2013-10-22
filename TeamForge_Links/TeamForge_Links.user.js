@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        TeamForge Links
+// @name        Teamforge - Link Menus
 // @namespace   fedex.scotterwin
 // @description Helpful TeamForge Links
 // @include     http://itg.prod.fedex.com/sf/*
@@ -19,9 +19,9 @@
 //
 // ==/UserScript==
 
-var CUR_VERSION = "1460";
+var CUR_VERSION = "1480";
 var DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root";
-var VER_BASE = ".wsaw1460_ol_1310_oct_2013_dl";
+var VER_BASE = ".wsaw1480_ol_1312_dec_2013_dl";
 var VER_ROOT = DOC_ROOT + VER_BASE;
 var JOB_AID = DOC_ROOT + ".templates";
 var DEV_DIR = DOC_ROOT + VER_BASE + ".development";

@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name           Translations Links
+// @name           Translations - Extra Links
 // @namespace      fedex.scotterwin
 // @include        https://vistaidiom.vistatec.ie/*
 // @grant          none

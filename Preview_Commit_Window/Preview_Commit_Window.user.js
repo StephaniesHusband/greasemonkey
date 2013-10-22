@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Preview Commit Window
+// @name        SVN - Preview Commit Window
 // @namespace   fedex.scotterwin
 // @include     http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js

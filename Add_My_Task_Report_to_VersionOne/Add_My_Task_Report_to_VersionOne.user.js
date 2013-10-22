@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Personal VersionOne Report
+// @name        VersionOne - Personal Report
 // @namespace   fedex.scotterwin
 // @include     https://www13.v1host.com/FedEx/Default.aspx*
 // @version     1

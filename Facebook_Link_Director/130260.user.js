@@ -1,6 +1,6 @@
 ﻿// ==UserScript==
 // @id             27109
-// @name           Facebook Link Director
+// @name           Facebook - Link Director
 // @version        1.0
 // @namespace  https://www.facebook.com/*
 // @author         

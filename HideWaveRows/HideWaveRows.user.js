@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        HideWaveRows
+// @name        WindFinder - Hide Wave Rows
 // @description Hide all wave related rows from forecast on WindFinder.com
 // @include     http://www.windfinder.com/weatherforecast/memphis_shelby_farms
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js

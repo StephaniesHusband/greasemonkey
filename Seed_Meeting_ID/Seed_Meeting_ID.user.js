@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name           Seed Meeting ID
+// @name           MeetingPlace - Seed Meeting ID
 // @namespace      fedex.scotterwin
 // @include        https://meeting.web.fedex.com/*
 // ==/UserScript==
