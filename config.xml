@@ -11,7 +11,7 @@
 		<Grant>none</Grant>
 		<Include>https://meeting.web.fedex.com/*</Include>
 	</Script>
-	<Script basedir="Translations_Links" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Translations_Links.user.js" installTime="1331828653150" modified="1381157475207" name="Translations - Extra Links" namespace="fedex.scotterwin" runAt="document-end" uuid="a9965a2b-7661-41c1-9f31-c58c9f022935" version="null">
+	<Script basedir="Translations_Links" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Translations_Links.user.js" installTime="1331828653150" modified="1383862756679" name="Translations - Extra Links" namespace="fedex.scotterwin" runAt="document-end" uuid="a9965a2b-7661-41c1-9f31-c58c9f022935" version="null">
 		<Grant>none</Grant>
 		<Include>https://vistaidiom.vistatec.ie/*</Include>
 	</Script>
@@ -64,7 +64,7 @@
 		<Grant>none</Grant>
 		<Include>https://www13.v1host.com/FedEx/*</Include>
 	</Script>
-	<Script basedir="Max_length_on_service_ticket" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="set max length" enabled="true" filename="Max_length_on_service_ticket.user.js" installTime="1370267793898" modified="1370268072000" name="Max length on service ticket" namespace="fedex.scotterwin" runAt="document-end" uuid="29b69229-8140-422a-9bdc-ac4737373fb1" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Max_length_on_service_ticket/Max_length_on_service_ticket.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Max_length_on_service_ticket/Max_length_on_service_ticket.user.js">
+	<Script basedir="Max_length_on_service_ticket" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="set max length" enabled="true" filename="Max_length_on_service_ticket.user.js" installTime="1370267793898" modified="1383239698986" name="RT - Max length on service ticket" namespace="fedex.scotterwin" runAt="document-end" uuid="29b69229-8140-422a-9bdc-ac4737373fb1" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Max_length_on_service_ticket/Max_length_on_service_ticket.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Max_length_on_service_ticket/Max_length_on_service_ticket.user.js">
 		<Grant>none</Grant>
 		<Include>https://sso.secure.fedex.com/techweb/srvpro.jsp</Include>
 	</Script>
@@ -102,7 +102,7 @@
 		<Grant>none</Grant>
 		<Match>*://*/*.css*</Match>
 	</Script>
-	<Script basedir="LinksInDetails" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="LinksInDetails.user.js" installTime="1382457035058" modified="1382458322638" name="LinksInDetails" namespace="fedex.scotterwin" runAt="document-end" uuid="9bd09e74-31d7-46c5-a0da-335f4c211bae" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LinksInDetails/LinksInDetails.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LinksInDetails/LinksInDetails.user.js">
+	<Script basedir="LinksInDetails" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="LinksInDetails.user.js" installTime="1382457035058" modified="1383239669946" name="Google Calendar - LinksInDetails" namespace="fedex.scotterwin" runAt="document-end" uuid="9bd09e74-31d7-46c5-a0da-335f4c211bae" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LinksInDetails/LinksInDetails.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LinksInDetails/LinksInDetails.user.js">
 		<Grant>none</Grant>
 		<Include>https://www.google.com/calendar/*</Include>
 	</Script>

@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Max length on service ticket
+// @name        RT - Max length on service ticket
 // @namespace   fedex.scotterwin
 // @description set max length
 // @include     https://sso.secure.fedex.com/techweb/srvpro.jsp

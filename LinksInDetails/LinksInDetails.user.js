@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        LinksInDetails
+// @name        Google Calendar - LinksInDetails
 // @namespace   fedex.scotterwin
 // @include     https://www.google.com/calendar/*
 // @version     1

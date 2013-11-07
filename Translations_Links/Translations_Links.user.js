@@ -15,28 +15,30 @@ function SiteDetail()
 var token = getUrlParam("token");
 
 var newLinks = new Array();
-var u;
 
-u = new SiteDetail();
-//u.url = "https://vistaidiom.vistatec.ie/ws/assignments_projects?&token=" + token;
-u.url = "https://vistaidiom.vistatec.ie/ws/transport/projects?&token=" + token;
-u.name = "My Projects";
-u.id = "myprojects";
-newLinks.push(u);
+newLinks.push({
+   url: "https://vistaidiom.vistatec.ie/ws/show_usefullink?&link=1305&token=" + token,
+   name: "Group Monitor",
+   id: "groupmonitor"
+});
 
-u = new SiteDetail();
-u.url = "https://vistaidiom.vistatec.ie/ws/transport/projects?&token=" + token;
-u.name = "Download...";
-u.id = "download";
-newLinks.push(u);
+newLinks.push({
+   url: "https://vistaidiom.vistatec.ie/ws/transport/projects?&token=" + token,
+   name: "My Projects",
+   id: "myprojects"
+});
 
-u = new SiteDetail();
-//u.url = "https://vistaidiom.vistatec.ie/ws/upload_create_project?&token=" + token;
-u.url = "https://vistaidiom.vistatec.ie/ws/transport/createproject?&token=" + token;
-u.name = "Create Project...";
-u.id = "createproject";
-newLinks.push(u);
+newLinks.push({
+   url: "https://vistaidiom.vistatec.ie/ws/transport/projects?&token=" + token,
+   name: "Download",
+   id: "download"
+});
 
+newLinks.push({
+   url: "https://vistaidiom.vistatec.ie/ws/transport/createproject?&token=" + token,
+   name: "Create a Project",
+   id: "createproject"
+});
 
 for (i=0; i<newLinks.length; i++)
 {
