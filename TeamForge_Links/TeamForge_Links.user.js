@@ -28,7 +28,7 @@ var DEV_DIR = DOC_ROOT + VER_BASE + ".development";
 var BRS_DIR = DOC_ROOT + VER_BASE + ".brs";
 
 
-var UTC_DOC = "http://itg.prod.fedex.com/sf/go/doc821723?nav=1";
+var UTC_DOC = "http://itg.prod.fedex.com/sf/docman/do/downloadDocument/projects.sqa_senseaware/docman.root.wsaw1500_ol_1402_feb_2014_dl.development/doc872140";
 var APP_CONT_INV = "http://itg.prod.fedex.com/sf/go/doc573380?nav=1";
 var REL_CAL = "http://itg.prod.fedex.com/sf/docman/do/downloadDocument/projects.sqa_senseaware/docman.root.wsaw1500_ol_1402_feb_2014_dl.release_documentation/doc866370";
 var SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware";
