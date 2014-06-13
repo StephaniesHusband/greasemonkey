@@ -19,18 +19,17 @@
 //
 // ==/UserScript==
 
-var CUR_VERSION = "1500";
+var CUR_VERSION = "1520";
 var DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root";
-var VER_BASE = ".wsaw1500_ol_1402_feb_2014_dl";
+var VER_BASE = ".wsaw1520_ol_1404_apr_dl";
 var VER_ROOT = DOC_ROOT + VER_BASE;
 var JOB_AID = DOC_ROOT + ".templates";
 var DEV_DIR = DOC_ROOT + VER_BASE + ".development";
 var BRS_DIR = DOC_ROOT + VER_BASE + ".brs";
 
-
-var UTC_DOC = "http://itg.prod.fedex.com/sf/docman/do/downloadDocument/projects.sqa_senseaware/docman.root.wsaw1500_ol_1402_feb_2014_dl.development/doc872140";
+var UTC_DOC = DEV_DIR + "/doc894311";
 var APP_CONT_INV = "http://itg.prod.fedex.com/sf/go/doc573380?nav=1";
-var REL_CAL = "http://itg.prod.fedex.com/sf/docman/do/downloadDocument/projects.sqa_senseaware/docman.root.wsaw1500_ol_1402_feb_2014_dl.release_documentation/doc866370";
+var REL_CAL = DOC_ROOT + ".release_documentation/doc887763";
 var SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware";
 
 var NAV_MENU = '<!--New Links-->'

@@ -15,7 +15,7 @@
 		<Grant>none</Grant>
 		<Include>https://vistaidiom.vistatec.ie/*</Include>
 	</Script>
-	<Script basedir="Facebook_Link_Director" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="null" enabled="true" filename="130260.user.js" installTime="1334153801441" modified="1381157291523" name="Facebook - Link Director" namespace="https://www.facebook.com/*" runAt="document-end" uuid="01d4153d-4626-444e-9965-3add9ec7184f" version="1.0" installurl="http://userscripts.org/scripts/source/130260.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/130260.meta.js">
+	<Script basedir="Facebook_Link_Director" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="null" enabled="false" filename="130260.user.js" installTime="1334153801441" modified="1381157291523" name="Facebook - Link Director" namespace="https://www.facebook.com/*" runAt="document-end" uuid="01d4153d-4626-444e-9965-3add9ec7184f" version="1.0" installurl="http://userscripts.org/scripts/source/130260.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/130260.meta.js">
 		<Grant>none</Grant>
 		<Include>https://www.facebook.com/*</Include>
 		<Require filename="jquery.min.js"/>
@@ -29,7 +29,7 @@
 		<Grant>none</Grant>
 		<Include>https://www13.v1host.com/FedEx/Default.aspx*</Include>
 	</Script>
-	<Script basedir="TeamForge_Links" checkRemoteUpdates="1" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="Helpful TeamForge Links" enabled="true" filename="TeamForge_Links.user.js" installTime="1357678017814" modified="1388161683110" name="Teamforge - Link Menus" namespace="fedex.scotterwin" runAt="document-end" uuid="8b168cf3-783d-4729-9ce0-27982d6cf4b6" version="v2.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js">
+	<Script basedir="TeamForge_Links" checkRemoteUpdates="1" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="Helpful TeamForge Links" enabled="true" filename="TeamForge_Links.user.js" installTime="1357678017814" modified="1392306047527" name="Teamforge - Link Menus" namespace="fedex.scotterwin" runAt="document-end" uuid="8b168cf3-783d-4729-9ce0-27982d6cf4b6" version="v2.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js">
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/*</Include>
 		<Include>https://itg.prod.fedex.com/sf/*</Include>
@@ -73,7 +73,7 @@
 		<Include>http://sym8b.prod.fedex.com/integration/viewvc/viewvc.cgi*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Monitor_button_at_top" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Monitor_button_at_top.user.js" installTime="1372098419960" modified="1381157373493" name="Teamforge - Monitor button at top" namespace="fedex.scotterwin" runAt="document-end" uuid="e2cbe1b0-866a-40e3-b601-a435ae15211a" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Monitor_button_at_top/Monitor_button_at_top.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Monitor_button_at_top/Monitor_button_at_top.user.js">
+	<Script basedir="Monitor_button_at_top" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="false" filename="Monitor_button_at_top.user.js" installTime="1372098419960" modified="1381157373493" name="Teamforge - Monitor button at top" namespace="fedex.scotterwin" runAt="document-end" uuid="e2cbe1b0-866a-40e3-b601-a435ae15211a" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Monitor_button_at_top/Monitor_button_at_top.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Monitor_button_at_top/Monitor_button_at_top.user.js">
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/docman/do/listDocuments*</Include>
 		<Require filename="jquery.min.js"/>
@@ -88,9 +88,9 @@
 		<Include>http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Filterable_Commit_Messages" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Filterable_Commit_Messages.user.js" installTime="1377799037167" modified="1381157299276" name="SVN - Filterable Commit Messages" namespace="fedex.scotterwin" runAt="document-end" uuid="18241486-c8b6-4255-898f-2712977d7bfd" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Filterable_Commit_Messages/Filterable_Commit_Messages.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Filterable_Commit_Messages/Filterable_Commit_Messages.user.js">
+	<Script basedir="Filterable_Commit_Messages" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Filterable_Commit_Messages.user.js" installTime="1377799037167" modified="1402676579198" name="SVN - Filterable Commit Messages" namespace="fedex.scotterwin" runAt="document-end" uuid="18241486-c8b6-4255-898f-2712977d7bfd" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Filterable_Commit_Messages/Filterable_Commit_Messages.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Filterable_Commit_Messages/Filterable_Commit_Messages.user.js">
 		<Grant>none</Grant>
-		<Include>http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware*</Include>
+		<Include>*//itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
 	<Script basedir="Meritline_Free_Ground_Service_Shipping" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="Always check free ground service shipping option." enabled="true" filename="Meritline_Free_Ground_Service_Shipping.user.js" installTime="1378740152041" modified="1381157361982" name="Meritline - Free Ground Service Shipping" namespace="fedex.scotterwin" runAt="document-end" uuid="691ae874-f725-4d2b-a6d3-732063575fa5" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Meritline_Free_Ground_Service_Shipping/Meritline_Free_Ground_Service_Shipping.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Meritline_Free_Ground_Service_Shipping/Meritline_Free_Ground_Service_Shipping.user.js">
@@ -102,20 +102,32 @@
 		<Grant>none</Grant>
 		<Match>*://*/*.css*</Match>
 	</Script>
-	<Script basedir="LinksInDetails" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="LinksInDetails.user.js" installTime="1382457035058" modified="1383239669946" name="Google Calendar - LinksInDetails" namespace="fedex.scotterwin" runAt="document-end" uuid="9bd09e74-31d7-46c5-a0da-335f4c211bae" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LinksInDetails/LinksInDetails.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LinksInDetails/LinksInDetails.user.js">
+	<Script basedir="LinksInDetails" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="false" filename="LinksInDetails.user.js" installTime="1382457035058" modified="1392142516781" name="Google Calendar - LinksInDetails" namespace="fedex.scotterwin" runAt="document-end" uuid="9bd09e74-31d7-46c5-a0da-335f4c211bae" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LinksInDetails/LinksInDetails.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LinksInDetails/LinksInDetails.user.js">
 		<Grant>none</Grant>
 		<Include>https://www.google.com/calendar/*</Include>
 	</Script>
-	<Script basedir="SetFields" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="SetFields.user.js" installTime="1384811404035" modified="1384811830513" name="SetFields" namespace="fedex.scotterwin" runAt="document-end" uuid="9fd25808-9f14-45a4-aa9f-d642ee407f64" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/SetFields/SetFields.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/SetFields/SetFields.user.js">
+	<Script basedir="SetFields" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="false" filename="SetFields.user.js" installTime="1384811404035" modified="1388434502829" name="SetFields" namespace="fedex.scotterwin" runAt="document-end" uuid="9fd25808-9f14-45a4-aa9f-d642ee407f64" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/SetFields/SetFields.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/SetFields/SetFields.user.js">
 		<Grant>none</Grant>
 		<Include>http://tnmap.tn.gov/assessment/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="LoadGreasemonkey" checkRemoteUpdates="1" dependhash="b6cf0871f8c3f1d14dee0d37d48a25e286ee826b" description="" enabled="true" filename="LoadGreasemonkey.user.js" installTime="1385054232761" modified="1385073791307" name="Cross Domain Communication: Localhost to tnmap.gov" namespace="" runAt="document-end" uuid="44e3924a-7f2c-41c2-ae5f-5972559176db" version="null" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LoadGreasemonkey/LoadGreasemonkey.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LoadGreasemonkey/LoadGreasemonkey.user.js">
+	<Script basedir="LoadGreasemonkey" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="LoadGreasemonkey.user.js" installTime="1385054232761" modified="1388440969536" name="Cross Domain Communication: Localhost to tnmap.gov" namespace="" runAt="document-end" uuid="44e3924a-7f2c-41c2-ae5f-5972559176db" version="null" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LoadGreasemonkey/LoadGreasemonkey.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/LoadGreasemonkey/LoadGreasemonkey.user.js">
 		<Grant>none</Grant>
 		<Include>http://inv-263952-l1.corp.ds.fedex.com:3000/*</Include>
 		<Include>http://tnmap.tn.gov/assessment/*</Include>
 		<Require filename="jquery.min.js"/>
-		<Require filename="jquery.ba-postmessage.min.js"/>
+	</Script>
+	<Script basedir="Linkify_Plus" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Turn plain text URLs into links. Supports http, https, ftp, email addresses." enabled="false" filename="1352.user.js" installTime="1392142347020" modified="1392142347020" name="Linkify Plus" namespace="http://arantius.com/misc/greasemonkey/" runAt="document-end" uuid="e4259610-eda7-4e23-8270-a19c65f28d6e" version="2.1.4" installurl="http://userscripts.org/scripts/source/1352.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/1352.meta.js">
+		<Exclude>http://www.google.tld/search*</Exclude>
+		<Exclude>https://www.google.tld/search*</Exclude>
+		<Exclude>http://music.google.com/*</Exclude>
+		<Exclude>https://music.google.com/*</Exclude>
+		<Exclude>http://mail.google.com/*</Exclude>
+		<Exclude>https://mail.google.com/*</Exclude>
+		<Exclude>http://docs.google.com/*</Exclude>
+		<Exclude>https://docs.google.com/*</Exclude>
+		<Exclude>http://mxr.mozilla.org/*</Exclude>
+		<Grant>none</Grant>
+		<Include>http*</Include>
 	</Script>
 </UserScriptConfig>
