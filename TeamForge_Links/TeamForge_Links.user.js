@@ -19,20 +19,17 @@
 //
 // ==/UserScript==
 
-var CUR_VERSION = "1520";
-var DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root";
-var VER_BASE = ".wsaw1520_ol_1404_apr_dl";
-var VER_ROOT = DOC_ROOT + VER_BASE;
-var JOB_AID = DOC_ROOT + ".templates";
-var DEV_DIR = DOC_ROOT + VER_BASE + ".development";
-var BRS_DIR = DOC_ROOT + VER_BASE + ".brs";
+var CUR_VERSION = "1600",
+    DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root",
+    VER_BASE = ".wsaw1600_1412_dec_2014_dl",
+    VER_ROOT = DOC_ROOT + VER_BASE,
+    JOB_AID = DOC_ROOT + ".templates",
+    DEV_DIR = DOC_ROOT + VER_BASE + ".development",
+    BRS_DIR = DOC_ROOT + VER_BASE + ".brs",
+    REL_CAL = DOC_ROOT + ".release_documentation/doc982843",
+    SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware",
 
-var UTC_DOC = DEV_DIR + "/doc894311";
-var APP_CONT_INV = "http://itg.prod.fedex.com/sf/go/doc573380?nav=1";
-var REL_CAL = DOC_ROOT + ".release_documentation/doc887763";
-var SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware";
-
-var NAV_MENU = '<!--New Links-->'
+    NAV_MENU = '<!--New Links-->'
 + '<nav id="scottLinks">'
 + '  <span>Quick Links:</span>'
 + '  <ul>'
@@ -42,9 +39,7 @@ var NAV_MENU = '<!--New Links-->'
 + '        <li><a class="wsaw" href="'+DOC_ROOT+'.definition.pre_read_brss">PreRead BRSs</a></li>'
 + '        <li><a class="wsaw" href="'+BRS_DIR+'">Current BRSs</a></li>'
 + '        <li><a class="wsaw" href="'+DEV_DIR+'">Code Review WPRs</a></li>'
-+ '        <li><a class="wsaw" href="'+UTC_DOC+'">UTC Document</a></li>'
 + '        <li><a class="wsaw" href="'+JOB_AID+'">Job Aids</a></li>'
-+ '        <li><a class="wsaw" href="'+APP_CONT_INV+'">Application Content Inventory</a></li>'
 + '        <li><a class="wsaw" href="'+REL_CAL+'">Release Calendar</a></li>'
 + '        <li><a class="wsaw" href="'+SVN_COMMITS+'">SVN Commits</a></li>'
 + '      </ul>'

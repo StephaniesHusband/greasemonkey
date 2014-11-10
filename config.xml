@@ -29,7 +29,7 @@
 		<Grant>none</Grant>
 		<Include>https://www13.v1host.com/FedEx/Default.aspx*</Include>
 	</Script>
-	<Script basedir="TeamForge_Links" checkRemoteUpdates="1" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="Helpful TeamForge Links" enabled="true" filename="TeamForge_Links.user.js" installTime="1357678017814" modified="1392306047527" name="Teamforge - Link Menus" namespace="fedex.scotterwin" runAt="document-end" uuid="8b168cf3-783d-4729-9ce0-27982d6cf4b6" version="v2.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js">
+	<Script basedir="TeamForge_Links" checkRemoteUpdates="1" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="Helpful TeamForge Links" enabled="true" filename="TeamForge_Links.user.js" installTime="1357678017814" modified="1415634813561" name="Teamforge - Link Menus" namespace="fedex.scotterwin" runAt="document-end" uuid="8b168cf3-783d-4729-9ce0-27982d6cf4b6" version="v2.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js">
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/*</Include>
 		<Include>https://itg.prod.fedex.com/sf/*</Include>
@@ -60,7 +60,7 @@
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/*/projects.sqa_senseaware/scm</Include>
 	</Script>
-	<Script basedir="FloatingTaskBoardHeader" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Floating Taskboard Header" enabled="true" filename="FloatingTaskBoardHeader.user.js" installTime="1367516631557" modified="1381157316354" name="VersionOne - Floating TaskBoard Header" namespace="fedex.scotterwin" runAt="document-end" uuid="08a5d219-3662-4221-92c0-4c7fda7da4aa" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js">
+	<Script basedir="FloatingTaskBoardHeader" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Floating Taskboard Header" enabled="true" filename="FloatingTaskBoardHeader.user.js" installTime="1367516631557" modified="1414773580672" name="VersionOne - Floating TaskBoard Header" namespace="fedex.scotterwin" runAt="document-end" uuid="08a5d219-3662-4221-92c0-4c7fda7da4aa" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js">
 		<Grant>none</Grant>
 		<Include>https://www13.v1host.com/FedEx/*</Include>
 	</Script>
@@ -78,9 +78,9 @@
 		<Include>http://itg.prod.fedex.com/sf/docman/do/listDocuments*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Preview_Commit_Window" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Preview_Commit_Window.user.js" installTime="1377031028111" modified="1381157390112" name="SVN - Preview Commit Window" namespace="fedex.scotterwin" runAt="document-end" uuid="cee2243c-3d56-4951-8a1e-fac5e08a4fd2" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js">
+	<Script basedir="Preview_Commit_Window" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Preview_Commit_Window.user.js" installTime="1377031028111" modified="1402677107210" name="SVN - Preview Commit Window" namespace="fedex.scotterwin" runAt="document-end" uuid="cee2243c-3d56-4951-8a1e-fac5e08a4fd2" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js">
 		<Grant>none</Grant>
-		<Include>http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware</Include>
+		<Include>*//itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
 	<Script basedir="Direct_Document_Links" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Direct_Document_Links.user.js" installTime="1377718144141" modified="1381335578779" name="Teamforge - Direct Document Links" namespace="fedex.scotterwin" runAt="document-end" uuid="13b54166-7e27-49b7-a089-4583ceb4ca56" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Direct_Document_Links/Direct_Document_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Direct_Document_Links/Direct_Document_Links.user.js">
@@ -88,7 +88,7 @@
 		<Include>http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Filterable_Commit_Messages" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Filterable_Commit_Messages.user.js" installTime="1377799037167" modified="1402676579198" name="SVN - Filterable Commit Messages" namespace="fedex.scotterwin" runAt="document-end" uuid="18241486-c8b6-4255-898f-2712977d7bfd" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Filterable_Commit_Messages/Filterable_Commit_Messages.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Filterable_Commit_Messages/Filterable_Commit_Messages.user.js">
+	<Script basedir="Filterable_Commit_Messages" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Filterable_Commit_Messages.user.js" installTime="1377799037167" modified="1402676943899" name="SVN - Filterable Commit Messages" namespace="fedex.scotterwin" runAt="document-end" uuid="18241486-c8b6-4255-898f-2712977d7bfd" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Filterable_Commit_Messages/Filterable_Commit_Messages.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Filterable_Commit_Messages/Filterable_Commit_Messages.user.js">
 		<Grant>none</Grant>
 		<Include>*//itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware*</Include>
 		<Require filename="jquery.min.js"/>
