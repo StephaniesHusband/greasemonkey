@@ -19,14 +19,14 @@
 //
 // ==/UserScript==
 
-var CUR_VERSION = "1600",
+var CUR_VERSION = "1660",
     DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root",
-    VER_BASE = ".wsaw1600_1412_dec_2014_dl",
+    VER_BASE = ".wsaw1660_1506_2015_dl",
     VER_ROOT = DOC_ROOT + VER_BASE,
     JOB_AID = DOC_ROOT + ".templates",
     DEV_DIR = DOC_ROOT + VER_BASE + ".development",
     BRS_DIR = DOC_ROOT + VER_BASE + ".brs",
-    REL_CAL = DOC_ROOT + ".release_documentation/doc982843",
+    REL_CAL = DOC_ROOT + ".release_documentation/doc1047646",
     SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware",
 
     NAV_MENU = '<!--New Links-->'
