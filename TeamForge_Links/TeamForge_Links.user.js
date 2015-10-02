@@ -19,17 +19,27 @@
 //
 // ==/UserScript==
 
-var CUR_VERSION = "1700",
-    DOC_ROOT = "http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root",
-    VER_BASE = ".wsaw1700_1510_oct_2015",
-    VER_ROOT = DOC_ROOT + VER_BASE,
-    JOB_AID = DOC_ROOT + ".templates",
-    DEV_DIR = DOC_ROOT + VER_BASE + ".development",
-    BRS_DIR = DOC_ROOT + VER_BASE + ".brs",
-    REL_CAL = VER_ROOT + ".release_documentation/doc1090808",
-    SVN_COMMITS = "http://itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware",
+// ===== MODIFY THESE TO MATCH RELEASE ============================================================================
+var CUR_VERSION = "1700";                      // Release # for title of menu
+var VER_BASE    = ".wsaw1700_1510_oct_2015";   // unique release path value
+var REL_CAL_VER = "doc1090808";                // Release calendar document number
+var CHGTRKVER   = "srch2421"                   // unique search value given to a "Saved" search
+//=================================================================================================================
 
-    NAV_MENU = '<!--New Links-->'
+// ***** DO NOT MODIFY THESE **************************************************************************************
+var SERVER      = "http://itg.prod.fedex.com/sf";
+var TRK_ROOT    = SERVER + "/tracker/do/listArtifacts/projects.sqa_senseaware/tracker.changetracker";
+var DOC_ROOT    = SERVER + "/docman/do/listDocuments/projects.sqa_senseaware/docman.root";
+var VER_ROOT    = DOC_ROOT + VER_BASE;
+var JOB_AID     = DOC_ROOT + ".templates";
+var DEV_DIR     = DOC_ROOT + VER_BASE + ".development";
+var BRS_DIR     = DOC_ROOT + VER_BASE + ".brs";
+var REL_CAL     = VER_ROOT + ".release_documentation/" + REL_CAL_VER;
+var CHG_TRK_DIR = TRK_ROOT + "?filterId=" + CHGTRKVER;
+var SVN_COMMITS = SERVER + "/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware";
+//*****************************************************************************************************************
+
+var NAV_MENU = '<!--New Links-->'
 + '<nav id="scottLinks">'
 + '  <span>Quick Links:</span>'
 + '  <ul>'
@@ -38,6 +48,7 @@ var CUR_VERSION = "1700",
 + '      <ul class="fallback">'
 + '        <li><a class="wsaw" href="'+DOC_ROOT+'.definition.pre_read_brss">PreRead BRSs</a></li>'
 + '        <li><a class="wsaw" href="'+BRS_DIR+'">Current BRSs</a></li>'
++ '        <li><a class="wsaw" href="'+CHG_TRK_DIR+'">Change Trackers</a></li>'
 + '        <li><a class="wsaw" href="'+DEV_DIR+'">Code Review WPRs</a></li>'
 + '        <li><a class="wsaw" href="'+JOB_AID+'">Job Aids</a></li>'
 + '        <li><a class="wsaw" href="'+REL_CAL+'">Release Calendar</a></li>'
