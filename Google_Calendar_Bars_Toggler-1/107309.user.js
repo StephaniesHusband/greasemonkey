@@ -1,11 +1,15 @@
-// ==UserScript==
-// @name            Google Calendar - Side/Header Bars Toggler
+﻿// ==UserScript==
+// @name            Google Calendar Bars Toggler
 // @namespace       http://userscripts.org/scripts/show/107309
-// @description     This script toggles display of the top and side bars of Google Calendar with click or I U O G V key.
-// @version         1.4.2
+// @description     This script is toggles the top and side bars of Google Calendar to hidden/visible with click or I U O G V key.
+// @version         1.7.14
 // @author          rat_siem
 // @include         https://*.google.*/calendar/*
 // @include         http://*.google.*/calendar/*
+// @grant           GM_getValue
+// @grant           GM_setValue
+// @grant           GM_deleteValue
+// @grant           GM_addStyle
 // ==/UserScript==
 (function() {
   function $(id) {
@@ -183,6 +187,7 @@
     var myv = $("__myvrn");
     if (myv) {
       myv.className = (myv.className == "" ? "hide" : "");
+      GM_setValue("GCBT_VR_HIDE", myv.className == "" ? "false" : "true");
     }
     
     change_nto();
@@ -497,7 +502,7 @@
   stg.style.display = "none";
   stg.innerHTML = [
 "   <div class=\"scpopup-title scpopup-title-draggable\">",
-"   <span class=\"scpopup-title-text\">Settings</span>",
+"   <span class=\"scpopup-title-text\">GC Bars Toggler Settings</span>",
 "   <span class=\"scpopup-title-close\"></span>",
 "   </div>",
 "   <div class=\"scpopup-content\">",
@@ -506,20 +511,21 @@
 "   <tr><td class=\"scpopup-col\">",
 "   <table><tbody>",
 "   <tr><th></th><th class=\"scpopup-th\">Initial states</th></tr>",
-"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Google Bar</span> :</td><td class=\"scpopup-desc\"><select id=\"__myit_gg\" style=\"width: 100px;\"><option value=\"0\">Hide</option><option value=\"1\">Visible</option><option value=\"2\">Save</option></select></td></tr>",
-"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Control Bar</span> :</td><td class=\"scpopup-desc\"><select id=\"__myit_vr\" style=\"width: 100px;\"><option value=\"0\">Hide</option><option value=\"1\">Visible</option><option value=\"2\">Save</option></select></td></tr>",
-"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Top Bar</span> :</td><td class=\"scpopup-desc\"><select id=\"__myit_gc\" style=\"width: 100px;\"><option value=\"0\">Hide</option><option value=\"1\">Visible</option><option value=\"2\">Save</option></select></td></tr>",
-"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Left Bar</span> :</td><td class=\"scpopup-desc\"><select id=\"__myit_nv\" style=\"width: 100px;\"><option value=\"0\">Hide</option><option value=\"1\">Visible</option><option value=\"2\">Save</option></select></td></tr>",
+"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Google Bar</span> :</td><td class=\"scpopup-desc\"><select id=\"__myit_gg\" style=\"width: 100px; height: 22px;\"><option value=\"0\">Hide</option><option value=\"1\">Visible</option><option value=\"2\">Save</option></select></td></tr>",
+"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Control Bar</span> :</td><td class=\"scpopup-desc\"><select id=\"__myit_vr\" style=\"width: 100px; height: 22px;\"><option value=\"0\">Hide</option><option value=\"1\">Visible</option><option value=\"2\">Save</option></select></td></tr>",
+"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Top Bar</span> :</td><td class=\"scpopup-desc\"><select id=\"__myit_gc\" style=\"width: 100px; height: 22px;\"><option value=\"0\">Hide</option><option value=\"1\">Visible</option><option value=\"2\">Save</option></select></td></tr>",
+"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Left Bar</span> :</td><td class=\"scpopup-desc\"><select id=\"__myit_nv\" style=\"width: 100px; height: 22px;\"><option value=\"0\">Hide</option><option value=\"1\">Visible</option><option value=\"2\">Save</option></select></td></tr>",
+"   <tr><td colspan=\"2\" class=\"scpopup-desc\" style=\"vertical-align: bottom; height: 32px;\"><a style=\"color: #dd0;\" href=\"http://userscripts.org:8080/scripts/show/107309\" target=\"_blank\">Google Calendar Bars Toggler</a> <a style=\"color: #dd0;\" href=\"https://greasyfork.org/scripts/2277-google-calendar-bars-toggler\" target=\"_blank\">[GF]</a></td></tr>", //  ^1.7.13$
 "   </tbody></table>",
 "   </td>",
 "   <td class=\"scpopup-col\">",
 "   <table><tbody>",
 "   <tr><th></th><th class=\"scpopup-th\">Shortcuts</th></tr>",
-"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Google Bar (G)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_gg\" type=\"text\" style=\"width: 150px;\" /></td></tr>",
-"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Control Bar (V)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_vr\" type=\"text\" style=\"width: 150px;\" /></td></tr>",
-"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Top Bar (I)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_gc\" type=\"text\" style=\"width: 150px;\" /></td></tr>",
-"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Left Bar (U)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_nv\" type=\"text\" style=\"width: 150px;\" /></td></tr>",
-"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Right Bar (O)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_gd\" type=\"text\" style=\"width: 150px;\" /></td></tr>",
+"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Google Bar (G)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_gg\" type=\"text\" style=\"width: 150px; height: 16px;\" /></td></tr>",
+"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Control Bar (V)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_vr\" type=\"text\" style=\"width: 150px; height: 16px;\" /></td></tr>",
+"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Top Bar (I)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_gc\" type=\"text\" style=\"width: 150px; height: 16px;\" /></td></tr>",
+"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Left Bar (U)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_nv\" type=\"text\" style=\"width: 150px; height: 16px;\" /></td></tr>",
+"   <tr><td class=\"scpopup-key\"><span class=\"keymnemonic\">Right Bar (O)</span> :</td><td class=\"scpopup-desc\"><input id=\"__myst_gd\" type=\"text\" style=\"width: 150px; height: 16px;\" /></td></tr>",
 "   </tbody></table>",
 "   </td></tr>",
 "   </tbody></table>",
@@ -573,7 +579,6 @@
 
 
   // one-googbar
-  var nog = false;
   var ogb = $("onegoogbar");
   if (ogb) {
     var myg = document.createElement("div");
@@ -581,8 +586,6 @@
     
     ogb.parentNode.insertBefore(myg, ogb);
     myg.appendChild(ogb);
-    
-    if (ogb.className.search("new-onegpad") >= 0) nog = true;
   }
 
   var ggd = $("gbgs4d");
@@ -617,28 +620,12 @@
   if (nav) {
     var myn = document.createElement("div");
     myn.setAttribute("id", "__mynav");
-    
-    if (nav.tagName.toUpperCase() == "TD") {
-      // classic look
-      var nvl = nav.childNodes.length;
-      for (var i = 0 ; i < nvl ; i++) {
-        myn.appendChild(nav.childNodes[0]);
-      }
-      nav.appendChild(myn);
-    } else {
-      nav.parentNode.insertBefore(myn, nav);
-      myn.appendChild(nav);
-    }
+    nav.parentNode.insertBefore(myn, nav);
+    myn.appendChild(nav);
   }
 
   // Top toggle bar
   var vpn = $("vr-nav");
-  var ftc = $("fastui-topnav-container");
-  var nst = true;
-  if (!vpn && ftc) {
-    vpn = ftc;
-    nst = false;
-  }
   if (vpn) {
     var ttb = document.createElement("div");
     ttb.setAttribute("id", "__myttb");
@@ -670,7 +657,7 @@
     
     // minimalize space
     vpn.style.marginTop = "0px";
-    if (nst) vpn.style.paddingBottom = "7px";
+    vpn.style.paddingBottom = "7px";
     
     
     
@@ -721,20 +708,18 @@
     
     mbd.appendChild(ltb);
     
-    if (nst) {
-      // minimalize space
-      mbd.style.paddingTop = "8px";
-      
-      // create space of left toggle bar.
-      var bdr = document.createElement("div");
-      bdr.style.borderLeft = "7px solid #FFF";
-      
-      var mbl = mbd.childNodes.length;
-      for (i = 0 ; i < mbl ; i++) {
-        bdr.appendChild(mbd.childNodes[0]);
-      }
-      mbd.appendChild(bdr);
+    // minimalize space
+    mbd.style.paddingTop = "8px";
+    
+    // create space of left toggle bar.
+    var bdr = document.createElement("div");
+    bdr.style.borderLeft = "7px solid #FFF";
+    
+    var mbl = mbd.childNodes.length;
+    for (i = 0 ; i < mbl ; i++) {
+      bdr.appendChild(mbd.childNodes[0]);
     }
+    mbd.appendChild(bdr);
   }
 
   /*
@@ -762,156 +747,271 @@
     }, false);
   }
   */
-
-  var tbc = (nst ? "#E7EBEF" : "#E3E9FF"); // bgcolor of toggle bars for mouse hover.
-  var ntv = (nst ? "139px"   : "107px");   // top value of notice area when topbar is open and #calcontent class is nothing.
-      ntv = (nog ? "139px"   : ntv);       // 
-  var nts = (nst ? "125px"   : "107px");   // top value of notice area when topbar is open and #calcontent class is "eui-s".
-      nts = (nog ? "139px"   : nts);       // 
-  var ntt = (nst ? "111px"   : "107px");   // top value of notice area when topbar is open and #calcontent class is "eui-t".
-      ntt = (nog ? "106px"   : ntt);       // 
-
-  var nh1  = (nst ? "37px"    : "12px");    // top value of notice area when topbar is close and google bar is open and vr-nav is close
-      nh1  = (nog ? "37px"    : nh1);       //     and #calcontent class is nothing or "eui-s".
-  var nh1t = (nst ? "37px"    : "12px");    // top value of notice area when topbar is close and google bar is open and vr-nav is close
-      nh1t = (nog ? "32px"    : nh1t);       //     and #calcontent class is "eui-t".
-  var nh2  = (nst ? "67px"    : "42px");    // top value of notice area when topbar is close and google bar is open and vr-nav is open
-      nh2  = (nog ? "67px"    : nh2);       //     and #calcontent class is nothing or "eui-s".
-  var nh2t = (nst ? "67px"    : "42px");    // top value of notice area when topbar is close and google bar is open and vr-nav is open
-      nh2t = (nog ? "62px"    : nh2t);       //     and #calcontent class is "eui-t".
-  var nh3  = (nst ? "37px"    : "12px");    // top value of notice area when topbar is close and google bar is close and vr-nav is open.
-
+  
   var css = [
-"   #__myogb.hide .new-onegpad #gbq {               ",
-"       visibility: hidden;                         ",
+// One Googbar
+"   #__myogb.hide #gbbw {                           ",
+"       top: 54px !important;                       ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbx1 {              ",
-"       visibility: hidden;                         ",
+"   #__myogb.hide #gb.gbes #gbbw {                  ",
+"       top: 43px !important;                       ",
+"   }                                               ",
+"   #__myogb.hide #gbzc {                           ",
+"       height: inherit;                            ",
 "   }                                               ",
 // Google+ info
-"   #__myogb.hide .new-onegpad #gbu {               ",
+"   #__myogb.hide #gbu {                            ",
 "       /*visibility: hidden;*/                     ",
 "       position: absolute;                         ",
 "       top: 0;                                     ",
 "       right: 0;                                   ",
-"       height: 30px;                               ",
+"       height: 28px;                               ",
 "       padding-top: 2px;                           ",
 "       padding-bottom: 0;                          ",
 "       z-index: 991;                               ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbu {      ",
-"       height: 25px;                               ",
+"   #__myogb.hide #gb.gbes #gbu {                   ",
+"       height: 22px;                               ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbi4t {             ",
+"   #__myogb.hide #gbu .gbtc {                      ",
+"       height: 26px;                               ",
+"   }                                               ",
+"   #__myogb.hide #gb.gbes #gbu .gbtc {             ",
+"       height: 20px;                               ",
+"   }                                               ",
+"   #__myogb.hide #gbu .gbt {                       ",
+"       line-height: 27px;                          ",
+"   }                                               ",
+"   #__myogb.hide #gb.gbes #gbu .gbt {              ",
+"       line-height: 20px;                          ",
+"   }                                               ",
+"   #__myogb.hide .gb_2a .gb_n {                    ", // ^1.7.0
+"       margin-top: 2px;                            ",
+"       height: 25px;                               ",
+"       line-height: 25px;                          ",
+"   }                                               ",
+"   #__myogb.hide .gb_3a .gb_n {                    ", // ^1.7.2
+"       margin-top: 2px;                            ",
+"       height: 25px;                               ",
+"       line-height: 25px;                          ",
+"   }                                               ", //  1.7.2$
+"   #__myogb.hide #gbwa + div + div .gb_n {         ", // ^1.7.3
+"       margin-top: 2px;                            ",
+"       height: 25px;                               ",
+"       line-height: 25px;                          ",
+"   }                                               ", //  1.7.3$
+"   #__myogb.hide #gbwa + div + div .gb_q {         ", // ^1.7.6
+"       margin-top: 2px;                            ",
+"       height: 25px;                               ",
+"       line-height: 25px;                          ",
+"   }                                               ", //  1.7.6$
+"   #__myogb.hide .gb_B {                           ",
+"       margin-top: 2px;                            ",
+"       width: 25px;                                ",
+"       height: 25px;                               ",
+"       background-size: 25px 25px;                 ",
+"   }                                               ", //  1.7.0$
+"   #__myogb.hide .gb_n .gb_la {                    ", // ^1.7.2
+"       margin-top: 1px;                            ",
+"   }                                               ", //  1.7.2$
+"   #__myogb.hide .gb_n > div + div {               ", // ^1.7.3
+"       margin-top: 1px;                            ",
+"   }                                               ", //  1.7.3$
+"   #__myogb.hide .gb_q > div + div {               ", // ^1.7.6
+"       margin-top: 1px;                            ",
+"   }                                               ", //  1.7.6$
+"   /* Google+ name */                              ",
+"   #__myogb.hide #gbi4t {                          ",
 "       color: #CCC;                                ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbi1a {             ",
+"   /* Google+ notifications */                     ",
+"   #__myogb.hide #gbi1a {                          ",
 "       height: 24px;                               ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbi1a {    ",
+"   #__myogb.hide #gb.gbes #gbi1a {                 ",
 "       height: 18px;                               ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbi1 {              ",
+"   #__myogb.hide #gbi1 {                           ",
 "       top: 0;                                     ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbi1  {    ",
+"   #__myogb.hide #gb.gbes #gbi1  {                 ",
 "       top: 0;                                     ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbgs3 {             ",
+"   #__myogb.hide #gbgs3 {                          ",
 "       height: 24px;                               ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbgs3 {    ",
+"   #__myogb.hide #gbg1 > div {                     ",
+"       border: 1px solid #c6c6c6;                  ",
+"       -moz-border-radius: 2px;                    ",
+"       -o-border-radius: 2px;                      ",
+"       -webkit-border-radius: 2px;                 ",
+"       border-radius: 2px;                         ",
+"       background-color: #ededed;                  ",
+"       height: 24px;                               ",
+"       width: 30px;                                ",
+"   }                                               ",
+"   #__myogb.hide #gb.gbes #gbg1 > div {            ",
+"       height: 18px;                               ",
+"       width: 27px;                                ",
+"   }                                               ",
+"   #__myogb.hide #gbg1 > div > div:first-child {   ",
+"       background-size: 29px;                      ",
+"       height: 24px;                               ",
+"       width: 30px;                                ",
+"       background-position: 4px -3px;              ",
+"   }                                               ",
+"   #__myogb.hide #gb.gbes #gbg1 > div > div:first-child { ",
+"       background-size: 22px;                      ",
+"       height: 18px;                               ",
+"       width: 27px;                                ",
+"       background-position: 5px -3px;              ",
+"   }                                               ",
+"   #__myogb.hide #gbg1 > div > div:first-child + div { ",
+"       font: bold 9px Arial;                       ",
+"   }                                               ",
+"   /* Google+ notifications popup */               ",
+"   #gbwc {                                         ",
+"       overflow: hidden;                           ",
+"   }                                               ",
+"   /* Google+ Share button */                      ",
+"   #__myogb.hide #gb.gbes #gbgs3 {                 ",
 "       height: 18px;                               ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbgsi {             ",
+"   #__myogb.hide #gbgsi {                          ",
 "       top: 7px;                                   ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbgsi {    ",
+"   #__myogb.hide #gb.gbes #gbgsi {                 ",
 "       top: 4px;                                   ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbi3 {              ",
+"   #__myogb.hide #gbi3 {                           ",
 "       position: relative;                         ",
 "       top: -1px;                                  ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbi3 {     ",
+"   #__myogb.hide #gb.gbes #gbi3 {                  ",
 "       top: -1px;                                  ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbgsa {             ",
+"   #__myogb.hide #gbgsa {                          ",
 "       top: 7px;                                   ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbgsa {    ",
+"   #__myogb.hide #gb.gbes #gbgsa {                 ",
 "       top: 4px;                                   ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbgs4 {             ",
+"   /* Google+ icon */                              ",
+"   #__myogb.hide #gbgs4 {                          ",
 "       height: 26px;                               ",
 "       width: 26px;                                ",
 "       border: 0;                                  ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbgs4 {    ",
+"   #__myogb.hide #gb.gbes #gbgs4 {                 ",
 "       height: 20px;                               ",
 "       width: 20px;                                ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbgs4 .gbmai {      ",
+"   #__myogb.hide #gbgs4 .gbmai {                   ",
 "       left: 30px;                                 ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbgs4 .gbmai { ",
+"   #__myogb.hide #gb.gbes #gbgs4 .gbmai {          ",
 "       left: 24px;                                 ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbi4i {             ",
+"   #__myogb.hide #gbi4i {                          ",
 "       height: 26px;                               ",
 "       width: 26px;                                ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbi4i {    ",
+"   #__myogb.hide #gb.gbes #gbi4i {                 ",
 "       height: 20px;                               ",
 "       width: 20px;                                ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbbw {              ",
-"       top: 54px !important;                       ",
-"   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes #gbbw {     ",
-"       top: 43px !important;                       ",
-"   }                                               ",
-"   #__myogb.hide .new-onegpad .gbt {               ",
-"       line-height: 27px;                          ",
-"   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes .gbt {      ",
-"       line-height: 20px;                          ",
-"   }                                               ",
-"   #__myogb .new-onegpad #gbgs4d .gbma {           ",
+"   #__myogb.hide #gbwa + div + div + div .gb_n {   ", // ^1.7.3
+"       margin-top: 2px;                            ",
+"       height: 25px;                               ",
+"       width: 25px;                                ",
+"       background-size: 25px 25px;                 ",
+"   }                                               ", //  1.7.3$
+"   #__myogb.hide #gbwa + div + div + div .gb_q {   ", // ^1.7.6
+"       margin-top: 2px;                            ",
+"       height: 25px;                               ",
+"       width: 25px;                                ",
+"       background-size: 25px 25px;                 ",
+"   }                                               ", //  1.7.6$
+// No longer know...
+"   #__myogb #gbgs4d .gbma {                        ",
 "       display: none;                              ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbgs4d .gbma {      ",
+"   #__myogb.hide #gbgs4d .gbma {                   ",
 "       display: inline-block;                      ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbgs4d .gbmai {     ",
+"   #__myogb.hide #gbgs4d .gbmai {                  ",
 "       display: none;                              ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gbgs4dn {           ",
+"   #__myogb.hide #gbgs4dn {                        ",
 "       color: #CCC;                                ",
 "       overflow: visible;                          ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb {                ",
-"       height: 25px;                               ",
-"   }                                               ",
-"   #__myogb.hide .new-onegpad #gb {                ",
+// Top Bar
+"   #__myogb.hide #gb.gbem {                        ",
 "       height: 30px;                               ",
 "   }                                               ",
-"   #__myogb.hide .new-onegpad #gb.gbes {           ",
-"       height: 25px;                               ",
+"   #__myogb.hide #gb.gbes {                        ",
+"       height: 24px;                               ",
 "   }                                               ",
+"   #__myogb.hide #gb > div:first-child > div{      ", // ^1.7.4
+"       height: 30px;                               ",
+"       line-height: 26px;                          ",
+"   }                                               ", //  1.7.4$
+"   #__myogb.hide .gb_qb > .gb_f {                  ", // ^1.7.0
+"       height: 30px;                               ",
+"       line-height: 26px;                          ",
+"   }                                               ", //  1.7.0$
+"   #__myogb.hide #gbq1 a > span {                  ", // ^1.7.4
+"       height: 25px;                               ",
+"   }                                               ", //  1.7.4$
+"   #__myogb.hide #gbq1 a > span:not([style*=\"background-image\"]) { ", // ^1.7.5  ^1.7.8  ^1.7.9  ^1.7.10  ^1.7.11  ^1.7.12  ^1.7.14
+"       width: 70px;                                ",
+"       background-position: -390px 0;              ",
+"       background-size: 650px auto;                ",
+"   }                                               ", //  1.7.5$  1.7.8$  1.7.9$  1.7.10$  1.7.11$  1.7.12$  1.7.14$
 "   #__myogb.hide-all {                             ",
 "       /*visibility: hidden;*/                     ",
 "       display: none;                              ",
 "       height: 0px;                                ",
 "   }                                               ",
-"   #__mycct.hide #vr-header {                      ",
-"       /*visibility: hidden;*/                     ",
-"       /*height: 0px;*/                            ",
-"       display: none;                              ",
-"   }                                               ",
 "   #__mycct.hide #__myvrn.hide {                   ",
 "       display: none;                              ",
 "   }                                               ",
+"   /* Search Bar */                                ",
+"   #__myogb.hide #gbw #gbq {                       ",
+"       visibility: hidden;                         ",
+"   }                                               ",
+"   #__myogb.hide #gbx1 {                           ",
+"       visibility: hidden;                         ",
+"   }                                               ",
+"   #__myogb.hide #gbq2 {                           ", // ^1.7.0
+"       padding-top: 3px;                           ",
+"   }                                               ",
+"   #__myogb.hide .gb_qb {                          ",
+"       height: 30px;                               ",
+"   }                                               ",
+"   #__myogb.hide #gb > div:first-child {           ", // ^1.7.3
+"       height: 30px;                               ",
+"   }                                               ", //  1.7.3$
+"   #__myogb.hide #gbqfq {                          ",
+"       margin-top: 0;                              ",
+"   }                                               ",
+"   #__myogb.hide #gbqfqw {                         ", // ^1.7.7$
+"       height: 23px;                               ",
+"   }                                               ",
+"   #__myogb.hide .asb-i  {                         ",
+"       margin-top: 6px;                            ",
+"   }                                               ",
+"   #__myogb.hide #gbqfb  {                         ",
+"       height: 23px;                               ",
+"   }                                               ", //  1.7.0$
+"   #__myogb.hide #gbqfb > span {                   ", // ^1.7.4
+"       margin-top: -4px;                           ",
+"   }                                               ", //  1.7.4$
+"   #__myogb.hide #gs_lc50 {                        ", // ^1.7.7
+"       margin-top: -4px;                           ",
+"   }                                               ", //  1.7.7$
+"   /* Top Toggle Bar */                            ",
 "   #__myttb {                                      ",
 "       height: 5px;                                ",
 "       padding: 2px 0 1px 0;                       ",
@@ -942,6 +1042,7 @@
 "   .__ar_v2 {                                      ",
 "       margin: 0 2px;                              ",
 "   }                                               ",
+// Left Bar
 "   #__myltb {                                      ",
 "       position: absolute;                         ",
 "       top: 0;                                     ",
@@ -986,37 +1087,25 @@
 "       clear: both;                                ",
 "   }                                               ",
 "   #__myttb:hover, #__myltb:hover {                ",
-"       background-color: ",tbc,";                  ",
+"       background-color: #E7EBEF;                  ",
 "       cursor: pointer;                            ",
 "   }                                               ",
-"                                                   ",
+// Notifications
 "   #calcontent #__mynto #ntowner {                 ",
 "       height: 0;                                  ",
 "       position: absolute;                         ",
-"       top: ",ntv,";                               ",
+"       top: ", ($("gbx1") ? "139" : "97"), "px;    ",
 "       left: 10px;                                 ",
 "       right: 10px;                                ",
 "   }                                               ",
-"   #calcontent.eui-s #__mynto #ntowner {           ",
-"       top: ",nts,";                               ",
-"   }                                               ",
-"   #calcontent.eui-t #__mynto #ntowner {           ",
-"       top: ",ntt,";                               ",
-"   }                                               ",
 "   #calcontent #__mynto.hide1 #ntowner {           ",
-"       top: ",nh1,";                               ",
-"   }                                               ",
-"   #calcontent.eui-t #__mynto.hide1 #ntowner {     ",
-"       top: ",nh1t,";                              ",
+"       top: 37px;                                  ",
 "   }                                               ",
 "   #calcontent #__mynto.hide2 #ntowner {           ",
-"       top: ",nh2,";                               ",
-"   }                                               ",
-"   #calcontent.eui-t #__mynto.hide2 #ntowner {     ",
-"       top: ",nh2t,";                              ",
+"       top: 67px;                                  ",
 "   }                                               ",
 "   #calcontent #__mynto.hide3 #ntowner {           ",
-"       top: ",nh3,";                               ",
+"       top: 37px;                                  ",
 "   }                                               ",
 "   #calcontent #__mynto.hide4 #ntowner {           ",
 "       top: 7px;                                   ",
@@ -1024,7 +1113,7 @@
 "   #calcontent #__mynto #ntowner #nt1 {            ",
 "       height: 0;                                  ",
 "   }                                               ",
-"                                                   ",
+// Right Bar
 "   #mainbody {                                     ",
 "       position: relative;                         ",
 "   }                                               ",
@@ -1033,7 +1122,7 @@
 "       margin-right: 10px !important;              ",
 "   }                                               ",
 "   div#maincell.has-sn-ex {                        ",
-"       margin-right: 173px !important;              ",
+"       margin-right: 173px !important;             ",
 "   }                                               ",
 "   #maincell.has-sn #gridcontainer {               ",
 "       margin-right: 0 !important;                 ",
@@ -1048,29 +1137,15 @@
 "   #calcontent #rhstogglecell.rhstogglecell-open { ",
 "       right: 162px !important;                    ",
 "   }                                               ",
-"                                                   ",
-"   /* classic look */                              ",
-"   #mainbody .printborder {                        ",
-"       border-left: 7px solid #BCF;                ",
-"   }                                               ",
-"   #fastui-topnav-container #mainnav{              ",
-"       width: 100%;                                ",
-"   }                                               ",
-"   #calcontent #topBar {                           ",
-"       padding-top: 6px;                           ",
-"   }                                               ",
-"   #topBar .logoparent, #topBar #topCtrls {        ",
-"       padding-top: 0;                             ",
-"   }                                               ",
-"                                                   ",
-"   /* bubble */                                    ",
+// Bubble
 "   .bubble[style*=\"left: -\"] {                   ",
 "       left: 0 !important;                         ",
 "   }                                               ",
 "   .bubble[style*=\"left: -\"] #prong\\:f {        ",
 "       display: none;                              ",
-"   }                                               "
-  ].join("");
+"   }                                               ",
+""
+  ].join("").split(/ +/).join(" ");
 
   if (typeof GM_addStyle != "undefined") {
     GM_addStyle(css);
@@ -1088,15 +1163,15 @@
     }
   }
 
-  if (!GM_getValue || (GM_getValue.toString && GM_getValue.toString().indexOf("not supported") > -1)) {
+  if (typeof GM_getValue != "function" || (GM_getValue.toString && GM_getValue.toString().indexOf("not supported") > -1)) {
     this.GM_getValue = function (key, def) {
-        return localStorage[key] || def;
+        return localStorage.getItem(key) || def;
     };
     this.GM_setValue = function (key, value) {
-        return localStorage[key] = value;
+        return localStorage.setItem(key, value);
     };
     this.GM_deleteValue = function (key) {
-        return delete localStorage[key];
+        return localStorage.removeItem(key);
     };
   }
 
