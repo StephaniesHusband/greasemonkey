@@ -33,7 +33,7 @@ var DOC_ROOT    = SERVER + "/docman/do/listDocuments/projects.sqa_senseaware/doc
 var VER_ROOT    = DOC_ROOT + VER_BASE;
 var JOB_AID     = DOC_ROOT + ".templates";
 var DEV_DIR     = DOC_ROOT + VER_BASE + ".development";
-var BRS_DIR     = DOC_ROOT + VER_BASE + ".brs";
+var BRS_DIR     = DOC_ROOT + VER_BASE + ".requirements_brs"; // Note this is different for 1740 - usually just ".brs"
 var REL_CAL     = VER_ROOT + ".release_documentation/" + REL_CAL_VER;
 var CHG_TRK_DIR = TRK_ROOT + "?filterId=" + CHGTRKVER;
 var SVN_COMMITS = SERVER + "/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware";
