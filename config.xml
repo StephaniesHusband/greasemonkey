@@ -78,4 +78,9 @@
 		<Include>https://*.google.*/calendar/*</Include>
 		<Include>http://*.google.*/calendar/*</Include>
 	</Script>
+	<Script basedir="STI_-_Both_kids" checkRemoteUpdates="1" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="" enabled="false" filename="STI_-_Both_kids.user.js" installTime="1452699587663" modified="1452700210482" name="STI - Both kids" namespace="scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="47f01137-9794-458c-a917-befda112d486" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/STI_-_Both_kids/STI_-_Both_kids.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/STI_-_Both_kids/STI_-_Both_kids.user.js">
+		<Grant>none</Grant>
+		<Include>https://sis-mcnairy.tnk12.gov/InformationNow/ParentPortal/*</Include>
+		<Require filename="jquery.min-1.js"/>
+	</Script>
 </UserScriptConfig>

@@ -20,10 +20,10 @@
 // ==/UserScript==
 
 // ===== MODIFY THESE TO MATCH RELEASE ============================================================================
-var CUR_VERSION = "1700";                      // Release # for title of menu
-var VER_BASE    = ".wsaw1700_1510_oct_2015";   // unique release path value
-var REL_CAL_VER = "doc1090808";                // Release calendar document number
-var CHGTRKVER   = "srch2421"                   // unique search value given to a "Saved" search
+var CUR_VERSION = "1740";                      // Release # for title of menu
+var VER_BASE    = ".wsaw1740_1604_april_2016"; // unique release path value
+var REL_CAL_VER = "doc1132319";                // Release calendar document number
+var CHGTRKVER   = "srch2474"                   // unique search value given to a "Saved" search
 //=================================================================================================================
 
 // ***** DO NOT MODIFY THESE **************************************************************************************
