@@ -1,5 +1,5 @@
 <UserScriptConfig>
-	<Script basedir="Seed_Meeting_ID" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Seed_Meeting_ID.user.js" installTime="1330706806129" modified="1451937988117" name="MeetingPlace - Seed Meeting ID" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="547e975e-1b6a-43ae-9074-c8364ace69e8" version="null" updateurl="null">
+	<Script basedir="Seed_Meeting_ID" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Seed_Meeting_ID.user.js" installTime="1330706806129" modified="1453324732519" name="MeetingPlace - Seed Meeting ID" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="547e975e-1b6a-43ae-9074-c8364ace69e8" version="null" updateurl="null">
 		<Grant>none</Grant>
 		<Include>https://meeting.web.fedex.com/*</Include>
 	</Script>
@@ -50,7 +50,7 @@
 		<Grant>none</Grant>
 		<Include>https://sso.secure.fedex.com/techweb/srvpro.jsp</Include>
 	</Script>
-	<Script basedir="Preview_Commit_Window" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Preview_Commit_Window.user.js" installTime="1377031028111" modified="1451937988116" name="SVN - Preview Commit Window" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="cee2243c-3d56-4951-8a1e-fac5e08a4fd2" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js">
+	<Script basedir="Preview_Commit_Window" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Preview_Commit_Window.user.js" installTime="1377031028111" modified="1455730970696" name="SVN - Preview Commit Window" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="cee2243c-3d56-4951-8a1e-fac5e08a4fd2" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js">
 		<Grant>none</Grant>
 		<Include>*//itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware*</Include>
 		<Require filename="jquery.min.js"/>
@@ -77,10 +77,5 @@
 		<Grant>GM_addStyle</Grant>
 		<Include>https://*.google.*/calendar/*</Include>
 		<Include>http://*.google.*/calendar/*</Include>
-	</Script>
-	<Script basedir="STI_-_Both_kids" checkRemoteUpdates="1" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="" enabled="false" filename="STI_-_Both_kids.user.js" installTime="1452699587663" modified="1452700210482" name="STI - Both kids" namespace="scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="47f01137-9794-458c-a917-befda112d486" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/STI_-_Both_kids/STI_-_Both_kids.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/STI_-_Both_kids/STI_-_Both_kids.user.js">
-		<Grant>none</Grant>
-		<Include>https://sis-mcnairy.tnk12.gov/InformationNow/ParentPortal/*</Include>
-		<Require filename="jquery.min-1.js"/>
 	</Script>
 </UserScriptConfig>

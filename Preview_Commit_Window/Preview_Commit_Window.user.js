@@ -28,8 +28,10 @@ $(document).ready(function() {
       $.get(cmtUrl, function(data) {
          $("#row"+cmtNum+" td:nth-child(2)")
             .html($(data)
-            .find("#ScmFiles")
-            .css('paddingBottom','8px'));
+                  .find("#ScmFiles a") 
+                  .prop("target", "_blank")
+                  .parents("#ScmFiles")
+                  .css('paddingBottom','8px'));
 
          $("#row"+cmtNum).slideToggle();
       });
