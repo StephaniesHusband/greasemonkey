@@ -3,11 +3,14 @@
 // @namespace   fedex.scotterwin
 // @description Floating Taskboard Header
 // @include     https://www13.v1host.com/FedEx/*
-// @require     jquery.sticky.js
+// @require     https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js
 // @version     1
 // ==/UserScript==
 
 // DOM Ready
 $(document).ready(function() {
-   $(".main-card.story-card-container > .story-card:first-child").sticky({topSpacing: 40});
+   /*$(".story-card-container").stickem({
+      container: ".main-card",
+      item: ".story-card"
+   });*/
 });

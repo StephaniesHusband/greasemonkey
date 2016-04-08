@@ -20,10 +20,10 @@
 // ==/UserScript==
 
 // ===== MODIFY THESE TO MATCH RELEASE ============================================================================
-var CUR_VERSION = "1740";                      // Release # for title of menu
-var VER_BASE    = ".wsaw1740_1604_april_2016"; // unique release path value
-var REL_CAL_VER = "doc1132319";                // Release calendar document number
-var CHGTRKVER   = "srch2474"                   // unique search value given to a "Saved" search
+var CUR_VERSION = "1760";                      // Release # for title of menu
+var VER_BASE    = ".wsaw1760_1607_july_2016";  // unique release path value
+var REL_CAL_VER = "doc1159286";                // Release calendar document number
+var CHGTRKVER   = "srch2518"                   // unique search value given to a "Saved" search
 //=================================================================================================================
 
 // ***** DO NOT MODIFY THESE **************************************************************************************
@@ -33,11 +33,14 @@ var DOC_ROOT    = SERVER + "/docman/do/listDocuments/projects.sqa_senseaware/doc
 var VER_ROOT    = DOC_ROOT + VER_BASE;
 var JOB_AID     = DOC_ROOT + ".templates";
 var DEV_DIR     = DOC_ROOT + VER_BASE + ".development";
-var BRS_DIR     = DOC_ROOT + VER_BASE + ".requirements_brs"; // Note this is different for 1740 - usually just ".brs"
 var REL_CAL     = VER_ROOT + ".release_documentation/" + REL_CAL_VER;
 var CHG_TRK_DIR = TRK_ROOT + "?filterId=" + CHGTRKVER;
 var SVN_COMMITS = SERVER + "/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware";
 //*****************************************************************************************************************
+
+// ===== MODIFY THESE TO MATCH RELEASE ============================================================================
+var BRS_DIR     = DOC_ROOT + VER_BASE + ".brs_requirements"; // this seems to be changing with every release!
+//=================================================================================================================
 
 var NAV_MENU = '<!--New Links-->'
 + '<nav id="scottLinks">'

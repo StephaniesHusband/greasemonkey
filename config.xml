@@ -7,11 +7,11 @@
 		<Grant>none</Grant>
 		<Include>https://vistaidiom.vistatec.ie/*</Include>
 	</Script>
-	<Script basedir="Add_My_Task_Report_to_VersionOne" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Add_My_Task_Report_to_VersionOne.user.js" installTime="1353003756732" modified="1451937988091" name="VersionOne - Personal Report" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="333b6876-20f7-4665-81dc-5d2063183050" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_My_Task_Report_to_VersionOne/Add_My_Task_Report_to_VersionOne.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_My_Task_Report_to_VersionOne/Add_My_Task_Report_to_VersionOne.user.js">
+	<Script basedir="Add_My_Task_Report_to_VersionOne" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="false" filename="Add_My_Task_Report_to_VersionOne.user.js" installTime="1353003756732" modified="1451937988091" name="VersionOne - Personal Report" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="333b6876-20f7-4665-81dc-5d2063183050" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_My_Task_Report_to_VersionOne/Add_My_Task_Report_to_VersionOne.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Add_My_Task_Report_to_VersionOne/Add_My_Task_Report_to_VersionOne.user.js">
 		<Grant>none</Grant>
 		<Include>https://www13.v1host.com/FedEx/Default.aspx*</Include>
 	</Script>
-	<Script basedir="TeamForge_Links" checkRemoteUpdates="1" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="Helpful TeamForge Links" enabled="true" filename="TeamForge_Links.user.js" installTime="1357678017814" modified="1452801537033" name="Teamforge - Link Menus" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="8b168cf3-783d-4729-9ce0-27982d6cf4b6" version="v2.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js">
+	<Script basedir="TeamForge_Links" checkRemoteUpdates="1" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="Helpful TeamForge Links" enabled="true" filename="TeamForge_Links.user.js" installTime="1357678017814" modified="1460132104173" name="Teamforge - Link Menus" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="8b168cf3-783d-4729-9ce0-27982d6cf4b6" version="v2.1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/TeamForge_Links/TeamForge_Links.user.js">
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/*</Include>
 		<Include>https://itg.prod.fedex.com/sf/*</Include>
@@ -42,15 +42,11 @@
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/*/projects.sqa_senseaware/scm</Include>
 	</Script>
-	<Script basedir="FloatingTaskBoardHeader" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Floating Taskboard Header" enabled="false" filename="FloatingTaskBoardHeader.user.js" installTime="1367516631557" modified="1451937988108" name="VersionOne - Floating TaskBoard Header" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="08a5d219-3662-4221-92c0-4c7fda7da4aa" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/FloatingTaskBoardHeader/FloatingTaskBoardHeader.user.js">
-		<Grant>none</Grant>
-		<Include>https://www13.v1host.com/FedEx/*</Include>
-	</Script>
 	<Script basedir="Max_length_on_service_ticket" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="set max length" enabled="true" filename="Max_length_on_service_ticket.user.js" installTime="1370267793898" modified="1451937988113" name="RT - Max length on service ticket" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="29b69229-8140-422a-9bdc-ac4737373fb1" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Max_length_on_service_ticket/Max_length_on_service_ticket.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/7hpb8or0.default/gm_scripts/Max_length_on_service_ticket/Max_length_on_service_ticket.user.js">
 		<Grant>none</Grant>
 		<Include>https://sso.secure.fedex.com/techweb/srvpro.jsp</Include>
 	</Script>
-	<Script basedir="Preview_Commit_Window" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Preview_Commit_Window.user.js" installTime="1377031028111" modified="1455730970696" name="SVN - Preview Commit Window" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="cee2243c-3d56-4951-8a1e-fac5e08a4fd2" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js">
+	<Script basedir="Preview_Commit_Window" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Preview_Commit_Window.user.js" installTime="1377031028111" modified="1455730993674" name="SVN - Preview Commit Window" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="cee2243c-3d56-4951-8a1e-fac5e08a4fd2" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Preview_Commit_Window/Preview_Commit_Window.user.js">
 		<Grant>none</Grant>
 		<Include>*//itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware*</Include>
 		<Require filename="jquery.min.js"/>
@@ -77,5 +73,15 @@
 		<Grant>GM_addStyle</Grant>
 		<Include>https://*.google.*/calendar/*</Include>
 		<Include>http://*.google.*/calendar/*</Include>
+	</Script>
+	<Script basedir="V1Tweaks" checkRemoteUpdates="1" dependhash="385fece0e39a37dcab1ddcf1d8fdcb34fc80a454" description="" enabled="false" filename="V1Tweaks.user.js" installTime="1457017217869" modified="1457027813624" name="V1Tweaks" namespace="scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="e4081e85-8a4e-4fc8-9cfd-75117b3f80bc" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/V1Tweaks/V1Tweaks.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/V1Tweaks/V1Tweaks.user.js">
+		<Grant>none</Grant>
+		<Include>https://www13.v1host.com/FedEx/Default.aspx?menu=TaskBoardPage</Include>
+		<Require filename="jquery.min.js"/>
+		<Require filename="jquery-ui.min.js"/>
+	</Script>
+	<Script basedir="SvnEnhancer" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="SvnEnhancer.user.js" installTime="1459880635347" modified="1459880766571" name="SvnEnhancer" namespace="scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="bac2a53e-54c5-4b74-a637-4be906ffd373" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/SvnEnhancer/SvnEnhancer.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/SvnEnhancer/SvnEnhancer.user.js">
+		<Grant>none</Grant>
+		<Include>http://sym8c.prod.fedex.com/integration/viewvc/viewvc.cgi*</Include>
 	</Script>
 </UserScriptConfig>
