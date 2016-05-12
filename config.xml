@@ -51,7 +51,7 @@
 		<Include>*//itg.prod.fedex.com/sf/scm/do/viewRepository/projects.sqa_senseaware/scm.senseaware*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Direct_Document_Links" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Direct_Document_Links.user.js" installTime="1377718144141" modified="1451937988096" name="Teamforge - Direct Document Links" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="13b54166-7e27-49b7-a089-4583ceb4ca56" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Direct_Document_Links/Direct_Document_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Direct_Document_Links/Direct_Document_Links.user.js">
+	<Script basedir="Direct_Document_Links" checkRemoteUpdates="1" dependhash="04439a3cdd179f52db6e4cf3d3eca85a7813c56b" description="" enabled="true" filename="Direct_Document_Links.user.js" installTime="1377718144141" modified="1460144457104" name="Teamforge - Direct Document Links" namespace="fedex.scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="13b54166-7e27-49b7-a089-4583ceb4ca56" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Direct_Document_Links/Direct_Document_Links.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/febeprof.263952/gm_scripts/Direct_Document_Links/Direct_Document_Links.user.js">
 		<Grant>none</Grant>
 		<Include>http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.sqa_senseaware/docman.root*</Include>
 		<Require filename="jquery.min.js"/>
@@ -74,14 +74,17 @@
 		<Include>https://*.google.*/calendar/*</Include>
 		<Include>http://*.google.*/calendar/*</Include>
 	</Script>
-	<Script basedir="V1Tweaks" checkRemoteUpdates="1" dependhash="385fece0e39a37dcab1ddcf1d8fdcb34fc80a454" description="" enabled="false" filename="V1Tweaks.user.js" installTime="1457017217869" modified="1457027813624" name="V1Tweaks" namespace="scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="e4081e85-8a4e-4fc8-9cfd-75117b3f80bc" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/V1Tweaks/V1Tweaks.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/V1Tweaks/V1Tweaks.user.js">
+	<Script basedir="V1Tweaks" checkRemoteUpdates="1" dependhash="9c0d3500027c68e62b63b72fb1693254b9977be3" description="" enabled="true" filename="V1Tweaks.user.js" installTime="1457017217869" modified="1463088039233" name="V1Tweaks" namespace="scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="e4081e85-8a4e-4fc8-9cfd-75117b3f80bc" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/V1Tweaks/V1Tweaks.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/V1Tweaks/V1Tweaks.user.js">
 		<Grant>none</Grant>
-		<Include>https://www13.v1host.com/FedEx/Default.aspx?menu=TaskBoardPage</Include>
+		<Include>https://www13.v1host.com/FedEx/Default.aspx?menu=TaskBoardPage*</Include>
 		<Require filename="jquery.min.js"/>
-		<Require filename="jquery-ui.min.js"/>
 	</Script>
 	<Script basedir="SvnEnhancer" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="SvnEnhancer.user.js" installTime="1459880635347" modified="1459880766571" name="SvnEnhancer" namespace="scotterwin" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="bac2a53e-54c5-4b74-a637-4be906ffd373" version="1" installurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/SvnEnhancer/SvnEnhancer.user.js" updateurl="file:///C:/Users/263952/AppData/Roaming/Mozilla/Firefox/Profiles/wk83fksp.default/gm_scripts/SvnEnhancer/SvnEnhancer.user.js">
 		<Grant>none</Grant>
 		<Include>http://sym8c.prod.fedex.com/integration/viewvc/viewvc.cgi*</Include>
+	</Script>
+	<Script author="Sindre Sorhus" basedir="cssprettifier" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Format and syntax highlight CSS" enabled="true" filename="cssprettifier.user.js" installTime="1462378512736" modified="1462378512736" name="cssprettifier" namespace="https://github.com/sindresorhus/cssprettifier-userscript" noframes="false" runAt="document-idle" updateMetaStatus="fail" uuid="f8545010-8003-49c7-bc03-5d8eb02871e2" version="0.1.1" installurl="https://github.com/sindresorhus/cssprettifier-userscript/raw/master/cssprettifier.user.js" updateurl="https://github.com/sindresorhus/cssprettifier-userscript/raw/master/cssprettifier.user.js">
+		<Grant>none</Grant>
+		<Match>*://*/*.css*</Match>
 	</Script>
 </UserScriptConfig>

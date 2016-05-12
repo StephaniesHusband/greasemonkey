@@ -18,7 +18,7 @@ $(function() {
       $(this).prev().attr('href', linkLink).attr('title', 'Click for document details screen');
       $(this).attr('href', iconLink);
 
-      $(this).after("<img class='directIcon' alt='This is now a direct link' title='This is now a direct link' src='http://ddcontent.comrz.com/AcuCustom/Sitename/Icon/Logo/2009AffinoMLMainNonStar12B.png'>");
+      //$(this).after("<img class='directIcon' alt='This is now a direct link' title='This is now a direct link' src='./share-link.png'>");
 
    });
 });
